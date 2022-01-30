@@ -1,6 +1,6 @@
 #!/bin/bash
 
-hugo -t hugo-tranquilpeak-theme
+hugo -D -t hugo-tranquilpeak-theme
 cd public
 git add .
 msg="rebuilding site `date`"
