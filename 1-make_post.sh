@@ -3,5 +3,5 @@ if [ -z $1 ]
 then
 	echo "no input"
 else
-	echo "$1"
+	hugo new post/$1
 fi
