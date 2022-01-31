@@ -21,6 +21,7 @@ disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
 paginate = 7
 canonifyurls = true
+# staticDir = ["static"]
 
 [permalinks]
   posts = "/:year/:month/:slug/"
@@ -68,7 +69,7 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-home\" aria-hidden=\"true\"></i>"
   url = "/"
 [[menu.main]]
-  weight = 2
+  weight = 5
   identifier = "categories"
   name = "Categories"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-bookmark\" aria-hidden=\"true\"></i>"
@@ -98,13 +99,14 @@ canonifyurls = true
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-github\" aria-hidden=\"true\"></i>"
   url = "https://github.com/junehan-dev"
-[[menu.links]]
-  weight = 2
-  identifier = "stackoverflow"
-  name = "Stack Overflow"
-  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-stack-overflow\" aria-hidden=\"true\"></i>"
-  url = "https://stackoverflow.com/users/636472/kakawait"
-
+# --------------
+# [[menu.links]]
+#   weight = 2
+#   identifier = "stackoverflow"
+#   name = "Stack Overflow"
+#   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-stack-overflow\" aria-hidden=\"true\"></i>"
+#   url = "https://stackoverflow.com/users/636472/kakawait"
+# --------------
 [[menu.misc]]
   weight = 1
   identifier = "rss"
