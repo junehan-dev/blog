@@ -12,7 +12,7 @@ thumbnailImage:
 ---
 ## linear equation이란?
 
-{{< figure src="/media/studies/mathmatics/khan_8_coordinate_plane_intro.png" title="cartesian coordinate system and Rene Decartes" >}}
+{{< figure src="/media/studies/mathmatics/khan_8_coordinate_plane_intro.jpg" title="cartesian coordinate system and Rene Decartes" >}}
 
 *-y = 2x - 1*는 Algebra[^1]의 표본이다.  
   여기서 *x, y*는 coefficients[^2]이며, 이들은 해당 equation의 parameter이다.  
