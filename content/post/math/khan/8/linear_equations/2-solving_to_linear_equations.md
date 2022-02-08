@@ -6,9 +6,6 @@ categories:
 - khan
 - 8th grade
 - linear equations
-tags:
-keywords:
-thumbnailImage:
 ---
 ## linear equation이란?
 
