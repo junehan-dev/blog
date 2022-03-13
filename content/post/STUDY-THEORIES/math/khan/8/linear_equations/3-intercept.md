@@ -4,7 +4,7 @@ date: 2022-02-08T13:46:57+09:00
 categories:
 - mathmatics
 - khan
-- 8th grade
+- grade-8
 - linear equations
 ---
 
