@@ -2,10 +2,10 @@
 title: "3 Intercept"
 date: 2022-02-08T13:46:57+09:00
 categories:
-- mathmatics
-- khan
-- grade-8
-- linear equations
+- MATHMATICS
+- KHAN
+- GRADE-8
+- LINEAR EQUATIONS
 ---
 
 ## Intercept란?

@@ -2,10 +2,10 @@
 title: "2 Solving_to_linear_equations"
 date: 2022-01-31T23:15:01+09:00
 categories:
-- mathmatics
-- khan
-- grade-8
-- linear equations
+- MATHMATICS
+- KHAN
+- GRADE-8
+- LINEAR EQUATIONS
 ---
 ## linear equation이란?
 

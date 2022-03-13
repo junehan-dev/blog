@@ -2,10 +2,10 @@
 title: "4 Slope"
 date: 2022-02-09T17:19:07+09:00
 categories:
-- mathmatics
-- khan
-- grade-8
-- linear equations
+- MATHMATICS
+- KHAN
+- GRADE-8
+- LINEAR EQUATIONS
 ---
 
 ## Slope for coordinate plane, 그래프 선의 기울기
