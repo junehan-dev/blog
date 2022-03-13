@@ -2,9 +2,9 @@
 title: "01_n_of_summation"
 date: 2022-02-08T19:34:39+09:00
 categories:
-- algorithm
-- program
-- everyone's with python
+- PBL
+- ALGORITHM
+- EVERYONE'S WITH PYTHON
 ---
 
 ## 1부터 n의 합 구하기 풀이

@@ -3,8 +3,8 @@ title: "01 3_find_name"
 date: 2022-02-12T12:12:36+09:00
 categories:
 - PBL
-- algorithm
-- everyone's with python
+- ALGORITHM
+- EVERYONE'S WITH PYTHON
 ---
 
 ## 문자열 중복 구하기
