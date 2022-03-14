@@ -27,6 +27,7 @@ SUBJECT: 스택의 정의와 속성, 그리고 이해
   - References
 
     - https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+    - https://en.wikipedia.org/wiki/Turing_machine
 
 Essentials
 ----------
@@ -76,8 +77,10 @@ wikipedia에는 c로 array를 포함하는 Stack을 구현하는 코드가 있�
 
 > wikipedia stack/history 
 > 
-> 앨런 튜링이 1946년 subroutine을 호출하고 돌아오는 과정을 bury, bury라고 불렀다.
+> 앨런 튜링이 1946년 subroutine을 호출하고 돌아오는 과정을 bury, unbury라고 불렀다.
 > 그리고 subroutine은 1945년 구현되었다.
  
-1960 ~ 1970년 중에 벨연구소에서 여전히 커다란 컴퓨터를 다루던 시기이고, assembly는 심지어 1949년에 처음 등장했다는 것을 감안하면 그것보다도 4년은 더 이전의 시기인 점으로 생각하면, ``PUSH EBP`` 루틴정도는 앞으로 눈감고 써야하지 않을까 생각이 들었다.
+1960 ~ 1970년 중에 벨연구소에서 여전히 커다란 컴퓨터를 다루던 시기이고, assembly는 심지어 1949년에 처음 등장했다는 것과 그것보다도 4년은 더 이전의 시기인 점으로 생각하면, ``PUSH EBP`` 루틴정도는 앞으로 눈감고 써야하지 않을까 생각이 들었다.
 
+Pushdown autonmation
+--------------------
