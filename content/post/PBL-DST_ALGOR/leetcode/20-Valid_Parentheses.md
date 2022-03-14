@@ -9,10 +9,10 @@ tags:
 - stack
 ---
 
-program name 입력
+Valid Parentheses
 -----------------
 
-  - SOURCE: [leetcode 3.](https://leetcode.com/problems/valid-parentheses/)
+  - SOURCE: [leetcode 20/Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
   - Solved code: [my github source file](https://github.com/junehan-dev/Programming_Lectures/tree/LC/LC)
 
 PROGRAM
