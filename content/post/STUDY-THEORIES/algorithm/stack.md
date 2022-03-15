@@ -6,6 +6,7 @@ categories:
 - ALGORITHM
 tags:
 - stack
+thumbnailImage: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Tallrik_-_Ystad-2018.jpg/220px-Tallrik_-_Ystad-2018.jpg
 ---
 
 SUBJECT: 스택의 정의와 속성, 그리고 이해
