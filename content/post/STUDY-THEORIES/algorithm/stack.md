@@ -32,6 +32,8 @@ SUBJECT: 스택의 정의와 속성, 그리고 이해
 Essentials
 ----------
 
+{{< figure src="https://lh3.googleusercontent.com/pw/AM-JKLUY8o3uaENfy4tuk1IYzOmV0W52O-EyKgvHKYUpxlLELmZYENRx8Tty3JP-c9_IEQjvt_0d7MoQGNETOstJN4BrXBcZolgIiS_jduYtfLsY63_1O1xOzpfL1F07LBjLnXZfQHP3twKdY1vOR3sw_hA=w702-h936-no?authuser=0" title="stack note" >}}
+
 1. *Stack as Collection Object*  
   어떤 목적에 의하여 데이터가 집합되고, 그리고 그 집합을 하나의 객체가 포함하는 것.  
   데이터가 같은 목적을 가지고 분류된 결과가 어떤 집합이라면,
@@ -68,6 +70,8 @@ Essentials
 유래와 사용성
 -------------
 
+{{< figure src="https://lh3.googleusercontent.com/pw/AM-JKLWpYSrN5JNbFZjV-1lvqG4SnGWmdvF1f_PglN6m-XbAoYaUluQD5epOKSkhLkQxoN6m86glDTjw8_GAQFQY88Gre0R8CbcjWvi5nZ1kTfS9RbZcnHnxzMM6droDzs47-SOzgA5NKZgZKzrrqkUfQUk=w702-h936-no?authuser=0" title="stack note" >}}
+
 파이썬 List에서 append, pop 메서드만 사용하는 것으로 스택을 사용해야 해결해야하는 문제풀이를 끝내고 나서 조금 시간이 흘렀다.  
 굳이 pointer operation으로 이미 존재하는 Collection을 유지하면서도 stack처럼 같은 효과를 낼 수 있는데 왜 이걸 덮어 씌워야 할까에 대해 고민했다.
 
@@ -82,5 +86,11 @@ wikipedia에는 c로 array를 포함하는 Stack을 구현하는 코드가 있�
  
 1960 ~ 1970년 중에 벨연구소에서 여전히 커다란 컴퓨터를 다루던 시기이고, assembly는 심지어 1949년에 처음 등장했다는 것과 그것보다도 4년은 더 이전의 시기인 점으로 생각하면, ``PUSH EBP`` 루틴정도는 앞으로 눈감고 써야하지 않을까 생각이 들었다.
 
+Edsger W. Dijkstra's Algorithm
+------------------------------
+
+
 Pushdown autonmation
 --------------------
+
+
