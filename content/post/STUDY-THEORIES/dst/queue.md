@@ -3,9 +3,10 @@ title: "Queue"
 date: 2022-03-16T01:59:05+09:00
 categories:
 - STUDY
-- ALGORITHM
+- DST
 - QUEUE
 tags:
+- interface
 - queue
 ---
 

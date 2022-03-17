@@ -3,9 +3,10 @@ title: "Stack"
 date: 2022-03-14T19:43:48+09:00
 categories:
 - STUDY
-- ALGORITHM
+- DST
 - STACK
 tags:
+- interface
 - stack
 thumbnailImage: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Tallrik_-_Ystad-2018.jpg/220px-Tallrik_-_Ystad-2018.jpg
 ---

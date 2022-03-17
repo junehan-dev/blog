@@ -3,7 +3,6 @@ title: "622 Circular queue"
 date: 2022-03-15T19:44:59+09:00
 categories:
 - PBL
-- ALGORITHM
 - LEETCODE
 tags:
 - queue
