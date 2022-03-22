@@ -15,7 +15,7 @@
 baseURL = "https://junehan-dev.github.io/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "junehan-dev's Devlog"
+title = "Junehan.devlog"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "June Han"
 # googleAnalytics = "UA-123-45"
