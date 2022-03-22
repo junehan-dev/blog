@@ -9,7 +9,7 @@ tags:
 - presentation
 - tree
 - bfs
-thumbnailImage: https://lh3.googleusercontent.com/pw/AM-JKLUjflVnDwAPm6nA_GqNOCh1AjwQhvt5p2mpzeYt2g3kynvGInz423_4hkOfaAjty2whYH5MWaJimW0E83msoQQOzU_AONHVoKA9XfLgcWmWnzZbA4ScUUUbAMZHp7nPmaBs5pdMIDsI0capmk0ROHr6=w317-h339-no?authuser=0
+#thumbnailImage: https://lh3.googleusercontent.com/pw/AM-JKLUjflVnDwAPm6nA_GqNOCh1AjwQhvt5p2mpzeYt2g3kynvGInz423_4hkOfaAjty2whYH5MWaJimW0E83msoQQOzU_AONHVoKA9XfLgcWmWnzZbA4ScUUUbAMZHp7nPmaBs5pdMIDsI0capmk0ROHr6=w317-h339-no?authuser=0
 ---
 
 ## "문제를 해결하고, 개선을 통해 선택한 기본 알고리즘이 나쁘지 않았다는 것을 증명한 것에 대해서"
