@@ -3,6 +3,7 @@ title: "20 Valid_Parentheses"
 date: 2022-03-14T11:02:44+09:00
 categories:
 - PBL
+- ALGORITHM
 - LEETCODE
 tags:
 - stack
