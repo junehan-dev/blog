@@ -18,7 +18,7 @@ defaultContentLanguage = "en-us"
 title = "junehan-dev' Devlog"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "June Han"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-123-45"
 paginate = 7
 canonifyurls = true
 # staticDir = ["static"]
@@ -45,15 +45,15 @@ canonifyurls = true
 # Author
 # ------
 [author]
-  name = "한지훈"
-  bio = "31살, 신입 개발자"
-  job = "취업준비생"
+  name = "한지훈, Junehan"
+  bio = "실수와 후회는 늘어가는데 기억력이 나빠지..."
+  job = "구직중(다크모드)"
   location = "Seoul"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "junehan.dev@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+  picture = "https://lh3.googleusercontent.com/pw/AM-JKLX-8e2kIpSKhw1fWnepVEOz8IOlXcpcAaxUBVXYqGNi9pWDbFV0B-3xLEl26LweuMUE4FGnZuv603BFo_T0YA5BFHxYyUn9Cu-OjRz_w5avKgW2qxh1bn51NtDS5AEfWIuL926cnlayhxlB3j7CHPwd=w134-h157-no?authuser=://en.gravatar.com/userimage/218838317/d78571e072a28f2f85e44d1211d43bfd.jpg?size=200"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
   # googlePlus = "+ThibaudLepretre"
 
@@ -375,7 +375,7 @@ canonifyurls = true
   #  class: st-search-show-outputs
   [params.header.rightLink]
     class = ""
-    icon = ""
+    icon = "https://lh3.googleusercontent.com/pw/AM-JKLX-8e2kIpSKhw1fWnepVEOz8IOlXcpcAaxUBVXYqGNi9pWDbFV0B-3xLEl26LweuMUE4FGnZuv603BFo_T0YA5BFHxYyUn9Cu-OjRz_w5avKgW2qxh1bn51NtDS5AEfWIuL926cnlayhxlB3j7CHPwd=w134-h157-no?authuser=0"
     url = "/#about"
 
   # --------------------
