@@ -4,11 +4,12 @@ date: 2022-03-24T15:02:49+09:00
 categories:
 - STUDY
 - DST
+- GRAPH
 - TREE
 - BINARY TREE
 tags:
 - binary tree
-- search
+- binary search
 thumbnailImage: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/180px-Binary_search_tree.svg.png
 ---
 
@@ -19,8 +20,7 @@ SUBJECT: Binary Tree에서 Binary Search Tree
     - BST의 Insert, Delete등의 Operation의 동작방식에 대한 근거를 확실히 한다.
 
   - References
-    - https://www.tutorialspoint.com/rooted-and-binary-tree
-    - https://www.youtube.com/watch?v=76dhtgZt38A&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=91
+    - rooted tree, https://www.tutorialspoint.com/rooted-and-binary-tree
 
 Binary Tree와 Traverse order
 ----------------------------
@@ -34,14 +34,42 @@ Binary Tree
   - 대부분 트리가 커질 수록 높이가 커지는 것을 의미하기 때문에 알고리즘에서 ``O(logn)``으로 표현되는 최대 operation은 트리의 도메인에서는 ``O(h)``로 표현하는 더 큰 범주 아래에 있는 개념이다.
     - 왜냐하면 트리는 높이라는 개념 자체가 트리의 기능과 성능에 직결되어 정의 이후에 개별적인 트리를 구분짓는 것이기  때문이다.
 
-Traversal order of node
+{{< figure src="https://lh3.googleusercontent.com/qbNGXjPaHQQP_VOvzvYxSQT21ChzhKDEht1x2JVt9a4XBAF1Ixr8J366JAGe2yMqEtKPUBVJ3ctkv5giLMCt0qjjLZgt190miw0ivV8w5sI0dVjqwh317Qsp4lO2PdcjMdUqnsS7c71AHF3hIWeYRdptFq6pIKAWH0Jw3dH8cLldrRzT1y7NQJD7glMFK3OlPCRaH-_4n4xg6QqthiomRs43SNHsevnHXCQPvli3YRweLBo7Cc_KirEMQ6k6pkBIAhE483psGYWy7IYnAjQhJ_n6_u3Plojf2z1oNr1I1l-nCjWgNWv6p9-kWjTAZAqvVGlzS6WSaHNhDTWG5r6XvydcVsCQ9pZTGl2RtI1QIWYP5nvz7IF1f2W972LwSk0fQwJFJ2uzsUfPN2cpXMErygPGhtbJAXXINdZRmsZZhERlS_j7dlc1mpenQ9HmDZYGKbFvwdV3HI1YDRQG_5xR8_ArLEoOzEz4sTpj-ggpzNGjxUFxRdIhdX8X2R3F5DZ3WRptJbVjE4Ejom4p7LrIPnGPvJhOXVhOFqO43OAiEOAgOl15--JI6Vh9PIDiSVujFYPfzaJFkx5lFpe4PlB9HgY_JG-mHjU9VTZUAerr7pfAsBNZC4ajble6VKzQ8l53clu9fiAiBUQ88PoiJUG-jBVJyhUzgpSeX38kXzhZSyxLMa-I4OHpkGguT_sGKwHPQhPUB5xp8b_XyuL8Jef88Ct3WiIWwoTFDRHfP8EQ92SkRyGNNHloAJpMH4C8kddQ9W0mIfwNtyiGPtmUq7MDGi_0SIeZivWwupA=w971-h1294-no?authuser=0" title="Subtree First order traverse" >}}
+
+Traversal order of node (from tutorialspoint)
   - SubTree-First order
     - 서브트리를 구성하는 노드부터 탐색하는 것을 의미하며, rightmost 부터 혹은 leftmost 부터 인지는 상황에 따라 선택가능하다.
     - 서브트리는 단일 노드(Leaf or Root only) 또한 서브트리이다.
     - 선택한 방향이 left라면, ``root -> root's left most leaf -> while parent.right``로 successor에게 돌아가며 RSP를 통해 방문했던 순서로 다시 parent.right의 indirection를 방문하고,
       - 다시 위와 같이 root of subtree's leftmost leaf를 재귀적으로 수행한다.
       - 이를 통해 판단이 되는 것은 Tree의 메인 root인지 아닌지일뿐  Binary Tree내부의 모든 vertex는 내가 원하면 언제나 root가 되어줄 수 있다.
+___
 
+Terminology in Binary Tree 
+--------------------------
+*(확실히 표현력이 남다르다. 'Caller', 'Callee' 함수 호출에서 일어나는 대상에 대한 지칭표현으로 브라이언 커닝헌이 쓴 practice of programming에서 이 대상화를 들어봤지만, 여기서는 그것을 넘어선 신세계다.")* 
+
+1. Successor: 어떤 대상 이후에 뒤따르는 것, *a thing tha comes after another thing.*
+
+  - 이건 상위subtree로의 회기에 대한 대상의 지칭을 표현하는데,  
+    leaf에 도달한 context가 스택프레임의 주소 해제가 되면서 호출자의 컨텍스트로 돌아가는 것과는 현상적으로는 동일한 것을 말하지만,  
+    이것은 대상을 지칭하는 것이다. 트리는 비순환 단방향 그래프에서 최대 2개의 하위노드의 링크를 포함하는 구조체이다.  
+    그래서 원칙적으로는 이게 스택이 해제되면서 간다는게 트리정보에서는 있을 수 없는 일인데,  
+     구현체는 결국 나무가 아니라 프로그램이고, recursive 함수이기 때문에 가능한 stack memory operation에 캐릭터를 부여해 돌아가는 대상 subtree의 root를 지칭하는데 사용된다.
+
+2. Predecessor: 전임자, *a thing that has been followed or replaced by another.*
+  - 이는 아래 adjacent와 함께 이후 다룰 binary search tree에서 등장하는 용어인데, subtree의 root인 vertex가 tree에서 delete되는 시점 이전에 특정 적합한 대상과 value를 교환하면서 그 대상이 사라진 값이 위치하던 구조체 메모리에 저장되어 탈바꿈 한 객체의 지칭이다.
+  - delete를 성공적으로 수행했다고 함은, **그 대상이 leaf가 아니었다면 vertex의 메모리는 그대로 있고** Recursive value exchanges between adjacents 사이에서 Swap이 일어나고
+  - 부분 재정렬이 일어나고 끝에 붙어있는 마지막 일부 byte만 해제한 array와 같은 식인데, 비워지고 다시 메워진 그자리를 차지한 대상을 통을어 Predecessor이라 부른다.
+
+3. Adjacent: 아주 인접한, *very near.*
+  - Adjacent는 deletion에 사용될 용어이다. 
+  - 일단 root는 집어치우자 어차피 어떤 노드라도 트리안에 있는 노드는 subtree의 root이면서 child of parent node이다.
+    특정 노드가 삭제된다는 가정하에 위치를 교환해 트리의 규칙에 문제가 없는 vertex를 지칭하는데, 그 값이 노드보다 크면 오른쪽으로 가고, 반대일 경우 왼쪽을 탐색한다.
+    대상 노드의 왼쪽 노드는 Target 노드보다 값은 바로 다음으로 작은 것이 아니라 작은 그룹에서 중간의 순서를 가졌던, sorted array에서 중앙 기준 좌측 시퀸스의 중간 인덱스이다.
+    따라서, 왼쪽 노드에서 가장 오른쪽의 노드는 Target Node보다 작으면서 작은 그룹의 가장 큰 값이 된다.
+
+___
 Rooted Tree > Binary Tree
 -------------------------
 
@@ -50,5 +78,4 @@ Rooted Tree > Binary Tree
 >   - *ordered rooted tree*는 각각의 내부 자식 vertex들이 정렬된 것이다.
 >   - 만약 rooted tree의 모든 내부 vertex가 *m*보다 적은 수라면, 이것은 *m-ary-tree*라고 불려진다.
 >     - ``if m == 2,`` 이라면 **rooted tree**는 **binary tree**라고 불린다.
-
 
