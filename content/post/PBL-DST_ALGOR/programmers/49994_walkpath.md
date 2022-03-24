@@ -14,7 +14,7 @@ tags:
 
   - SOURCE: [PG 49994. Walkpath](https://programmers.co.kr/learn/courses/30/lessons/49994)
 
-  - Solved code: [my github PullReq](https://github.com/junehan-dev/Programming_Lectures/pull/56)
+  - Solved code: [my github Sourcecode](https://github.com/junehan-dev/Programming_Lectures/blob/PG/PG/49994/walk_path.py)
 
 PROGRAM
 -------
