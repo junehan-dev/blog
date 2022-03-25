@@ -34,6 +34,15 @@ Binary Tree
   - 대부분 트리가 커질 수록 높이가 커지는 것을 의미하기 때문에 알고리즘에서 ``O(logn)``으로 표현되는 최대 operation은 트리의 도메인에서는 ``O(h)``로 표현하는 더 큰 범주 아래에 있는 개념이다.
     - 왜냐하면 트리는 높이라는 개념 자체가 트리의 기능과 성능에 직결되어 정의 이후에 개별적인 트리를 구분짓는 것이기  때문이다.
 
+Rooted Tree > Binary Tree
+-------------------------
+
+> Rooted Tree **G**는 비순환형 그래프로 root라 불리는 특별한 노드를 가진 트리이다.
+>   - 모든 edge는 직접적으로 혹은 indirect를 통해 Root로 부터 기원된다.
+>   - *ordered rooted tree*는 각각의 내부 자식 vertex들이 정렬된 것이다.
+>   - 만약 rooted tree의 모든 내부 vertex가 *m*보다 적은 수라면, 이것은 *m-ary-tree*라고 불려진다.
+>     - ``if m == 2,`` 이라면 **rooted tree**는 **binary tree**라고 불린다.
+
 {{< figure src="https://lh3.googleusercontent.com/pw/AM-JKLUnO7pKYsMMvQ6cT9ukOKOKyG7NB573Y3NR6m-kFg-S92gcERor46XAwnJitSqsBHRQ36wbCaiam-QV51O3DUPyi7WNIaA1bdsftmrvgZ5iX7haXcQJAqbTWvBbJTLeTSmvmFjUUvvwAXcKITKkuBQp=w971-h1294-no?authuser=0" title="Subtree First order traverse" >}}
 
 Traversal order of node (from tutorialspoint)
@@ -68,14 +77,25 @@ Terminology in Binary Tree
     특정 노드가 삭제된다는 가정하에 위치를 교환해 트리의 규칙에 문제가 없는 vertex를 지칭하는데, 그 값이 노드보다 크면 오른쪽으로 가고, 반대일 경우 왼쪽을 탐색한다.
     대상 노드의 왼쪽 노드는 Target 노드보다 값은 바로 다음으로 작은 것이 아니라 작은 그룹에서 중간의 순서를 가졌던, sorted array에서 중앙 기준 좌측 시퀸스의 중간 인덱스이다.
     따라서, 왼쪽 노드에서 가장 오른쪽의 노드는 Target Node보다 작으면서 작은 그룹의 가장 큰 값이 된다.
-
 ___
-Rooted Tree > Binary Tree
--------------------------
 
-> Rooted Tree **G**는 비순환형 그래프로 root라 불리는 특별한 노드를 가진 트리이다.
->   - 모든 edge는 직접적으로 혹은 indirect를 통해 Root로 부터 기원된다.
->   - *ordered rooted tree*는 각각의 내부 자식 vertex들이 정렬된 것이다.
->   - 만약 rooted tree의 모든 내부 vertex가 *m*보다 적은 수라면, 이것은 *m-ary-tree*라고 불려진다.
->     - ``if m == 2,`` 이라면 **rooted tree**는 **binary tree**라고 불린다.
+Insert and Delete a node in Binary Search Tree 
+----------------------------------------------
+
+{{< figure src="https://lh3.googleusercontent.com/pw/AM-JKLXgjOKWM94MGQyW7kHnyJDVYQ0oe4h0ktelervGMjNkHUt0Or1QbhYeCLaAwELlaGvuFS3fYKWwnozFX4HVNpBxg58_vJeGfGZBlMjWLaK8A1qOyTYP3eSnkwR4C_asCg6JAFiFocGHCRn9-LxSzukC=w971-h1294-no?authuser=0" title="INSERT methodology" >}}
+
+- 기본적인 BST에 값을 더해가는 것 비대칭을 키우기 십상이라, 트리의 균형이 깨진다. 여기에 필요한 기술이 rotate와 AVL이다.
+  - 추가하는 방법은 root에서 순회하면서, 자신이 넣을 보다 작은 값과 더 큰값 사이를 찾아 새로운 node를 생성하고, 부모에게 연결하면 된다.
+
+{{< figure src="https://lh3.googleusercontent.com/pw/AM-JKLWrGwxcSerALTt8-rOW9r5qAvpFeZnaSJdtxWNVVjyq6LjVJNYdaPqnVNNptSboCkErE8PndqxuMdvNgQuHj5owjzWR8qN730wdJ0HcMStMq2I3ZBYxyAb7EhfU7t6gAnVSbbN716F2FYVnTEbM3aq_=w971-h1294-no?authuser=0" title="DELETE methodology" >}}
+
+- 2가지의 경우로 나눌 수 있다.
+  - 삭제하려는 노드가 h가 0인 leaf라면, successor에게서 링크를 해제하면서 값을 삭제하면 된다.
+  - **높이를 가지는 서브트리의 root라면,**
+    - 모든 정렬연산을 수행할 것이 아니라면, 메모리 해제, 탐색 등을 반복하지 않기 위해서라도,  
+    adj가 삭제하려는 노드의 자리를 대신하도록 한다 변화 이후에 트리가 이전에 규칙을 통해서 생성되었다면 좌는 우보다 크다는 사실에는 변함이 없을 것이다.  
+    (left의 rightmost, 혹은 right의 leftmost의 노드와 교환하는 방식으로 이 방식을 재귀적으로 전환하여 leaf까지 이동하고 삭제하는 방법이다.)
+    - 하지만 이 방법 또한 "단순히 어디를 지금 바로 해결할 수 있어" 라는 greedy한 느낌이라, 오래 사용하다보면 높이가 맞지 않는 문제가 발생한다, 이를 unbalance하다 라고 말한다..
+
+{{< figure src="https://lh3.googleusercontent.com/pw/AM-JKLXZ34kzD5qIXYmzsWi7TjwXgKaK80odfls2dQRSCBjAXVNE2BXcvizz-FLP8LXplxpSpQKfg3-SslY9jQ7z9Py4bBrJNAqEw3X2oh_KzgfXtn2dK21w_Fo4SZ_aF2jY55nJF-0-A6A1f8sJyG2CeQJ9=w971-h1294-no?authuser=0" title="DELETE Pseudo code" >}}
 
