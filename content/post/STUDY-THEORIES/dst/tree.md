@@ -34,7 +34,7 @@ Binary Tree
   - 대부분 트리가 커질 수록 높이가 커지는 것을 의미하기 때문에 알고리즘에서 ``O(logn)``으로 표현되는 최대 operation은 트리의 도메인에서는 ``O(h)``로 표현하는 더 큰 범주 아래에 있는 개념이다.
     - 왜냐하면 트리는 높이라는 개념 자체가 트리의 기능과 성능에 직결되어 정의 이후에 개별적인 트리를 구분짓는 것이기  때문이다.
 
-{{< figure src="https://lh3.googleusercontent.com/qbNGXjPaHQQP_VOvzvYxSQT21ChzhKDEht1x2JVt9a4XBAF1Ixr8J366JAGe2yMqEtKPUBVJ3ctkv5giLMCt0qjjLZgt190miw0ivV8w5sI0dVjqwh317Qsp4lO2PdcjMdUqnsS7c71AHF3hIWeYRdptFq6pIKAWH0Jw3dH8cLldrRzT1y7NQJD7glMFK3OlPCRaH-_4n4xg6QqthiomRs43SNHsevnHXCQPvli3YRweLBo7Cc_KirEMQ6k6pkBIAhE483psGYWy7IYnAjQhJ_n6_u3Plojf2z1oNr1I1l-nCjWgNWv6p9-kWjTAZAqvVGlzS6WSaHNhDTWG5r6XvydcVsCQ9pZTGl2RtI1QIWYP5nvz7IF1f2W972LwSk0fQwJFJ2uzsUfPN2cpXMErygPGhtbJAXXINdZRmsZZhERlS_j7dlc1mpenQ9HmDZYGKbFvwdV3HI1YDRQG_5xR8_ArLEoOzEz4sTpj-ggpzNGjxUFxRdIhdX8X2R3F5DZ3WRptJbVjE4Ejom4p7LrIPnGPvJhOXVhOFqO43OAiEOAgOl15--JI6Vh9PIDiSVujFYPfzaJFkx5lFpe4PlB9HgY_JG-mHjU9VTZUAerr7pfAsBNZC4ajble6VKzQ8l53clu9fiAiBUQ88PoiJUG-jBVJyhUzgpSeX38kXzhZSyxLMa-I4OHpkGguT_sGKwHPQhPUB5xp8b_XyuL8Jef88Ct3WiIWwoTFDRHfP8EQ92SkRyGNNHloAJpMH4C8kddQ9W0mIfwNtyiGPtmUq7MDGi_0SIeZivWwupA=w971-h1294-no?authuser=0" title="Subtree First order traverse" >}}
+{{< figure src="https://lh3.googleusercontent.com/pw/AM-JKLUnO7pKYsMMvQ6cT9ukOKOKyG7NB573Y3NR6m-kFg-S92gcERor46XAwnJitSqsBHRQ36wbCaiam-QV51O3DUPyi7WNIaA1bdsftmrvgZ5iX7haXcQJAqbTWvBbJTLeTSmvmFjUUvvwAXcKITKkuBQp=w971-h1294-no?authuser=0" title="Subtree First order traverse" >}}
 
 Traversal order of node (from tutorialspoint)
   - SubTree-First order
