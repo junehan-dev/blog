@@ -6,7 +6,6 @@ categories:
 - DST
 - GRAPH
 - TREE
-- BINARY TREE
 tags:
 - binary tree
 - binary search
