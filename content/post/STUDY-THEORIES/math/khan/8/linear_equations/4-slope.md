@@ -6,6 +6,8 @@ categories:
 - KHAN
 - GRADE-8
 - LINEAR EQUATIONS
+tags:
+- equations
 ---
 
 ## Slope for coordinate plane, 그래프 선의 기울기

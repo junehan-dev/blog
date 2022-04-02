@@ -6,6 +6,8 @@ categories:
 - KHAN
 - GRADE-8
 - LINEAR EQUATIONS
+tags:
+- equations
 ---
 ## linear equation이란?
 
