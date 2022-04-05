@@ -1,5 +1,6 @@
 #!/bin/bash
-path=../content/post/LINUX/PROGRAMS
+basepath=~/Documents/POSTINGS/hugo_blog-Diary_Study 
+path=${basepath}/content/post/LINUX/PROGRAMS
 if [ -z $1 ]
 then
 	echo "run like ./autopbl cat"
@@ -8,6 +9,6 @@ else
 	hugo new ${path}/$1.md
 	today=$( cat ${path}/$1.md | grep date )
 	title=$( cat ${path}/$1.md | grep title )
-	cat ../BASES/LINUXPROGS >> ${path}/$1.md
+	cat ${basepath}/BASES/LINUXPROGS >> ${path}/$1.md
 	vim ${path}/$1.md
 fi
