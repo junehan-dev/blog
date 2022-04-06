@@ -1,16 +1,12 @@
 ---
-title: "How_js_works"
+title: "How Object work?"
 date: 2022-04-06T00:17:07+09:00
 categories:
 - STUDY
 - JS
 ---
 
-How Object work?
------------------
-
 자바스크립트는 object라는 단어를 overload했다.
-
 
 object
 
@@ -136,4 +132,5 @@ obj = {"1" : 4, 2: "5"}
 Objects.keys(obj) // ["1", "2"]
 Objects.values(obj) // [4, "5"]
 ```
+
 
