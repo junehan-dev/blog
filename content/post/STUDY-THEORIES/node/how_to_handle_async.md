@@ -84,3 +84,74 @@ first_callback = function () {
 
 callback의 존재를 일반함수 처럼 분리할 수 있으며 async코드내의 콜백 의존성 또한 실행 시점 이전까지 제거된 제네릭 콜백을 받는 형태로 코드를 유지할 수 있다.
 
+___
+
+Node js callback pattern
+------------------------
+
+```js
+const fs = require('fs');
+let filename = `${__dirname}/myfile.txt`;
+fs.exists(filename, exists => { // 1callback
+    if (exists) {
+        fs.stat(filename, (err, stats) => { // 2callback
+            if (err) {
+                throw err;
+            }
+            if (stats.isFile()) {
+                fs.readFile(filename, null, (err, data) => { // 3callback
+                    if (err) {
+                        throw err;
+                    }
+                    console.log(data);
+                });
+            }
+            else {
+                throw new Error("This location contains not a file");
+            }
+        });
+    }
+    else {
+        throw new Error("404: file not found");
+    }
+});
+```
+
+callback hell은 callback이후 행동을 계속 구분하여 정의하고 연결할 때 생겨납니다.
+
+어떻게 callback hell을 벗어나는가?
+
+2개의 콜백 중첩을 초과하는 포메팅룰을 팀이 가져간다면 개발속도, 유지보수성 등에서 유의미한 지연이 발생할 수 있다라고 보는 입장이 있는 것 같습니다.
+
+nodejs에서 2개 이상의 콜백을 회피하면서 연속적으로 정의하고 싶다면, distributed events를 사용하는 것을 권유합니다.
+
+```js
+// callback chaining with "events" module //
+const myEmitter = new MyEmitter();
+myEmitter.on('event', () => {
+    console.log('an event occurred!');
+});
+myEmitter.emit('event');
+```
+
+그리고 이에 대한 세련되게 콜백을 제어해주는 라이브러리인 async관련 라이브러리를 추천합니다.
+
+```js
+// external library "async" //
+
+async.parallel([
+    function(callback) { ... },
+    function(callback) { ... }
+], function(err, results) {
+    // optional callback
+});
+
+async.series([
+    function(callback) { ... },
+    function(callback) { ... }
+]);
+```
+
+- core events: https://nodejs.org/api/events.html
+- async lib: https://caolan.github.io/async/v3/
+
