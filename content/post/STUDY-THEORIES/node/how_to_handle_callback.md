@@ -1,5 +1,5 @@
 ---
-title: "how to handle async?"
+title: "how to handle callback?"
 date: 2022-04-06T14:17:07+09:00
 categories:
 - STUDY
@@ -154,4 +154,5 @@ async.series([
 
 - core events: https://nodejs.org/api/events.html
 - async lib: https://caolan.github.io/async/v3/
+
 
