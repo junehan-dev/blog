@@ -3,7 +3,7 @@ title: "What is Async and promise?"
 date: 2022-04-07T14:17:07+09:00
 categories:
 - STUDY
-- JS
+- NODEJS
 ---
 
 Why Promise?

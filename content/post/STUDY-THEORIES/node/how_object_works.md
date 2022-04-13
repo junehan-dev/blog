@@ -3,7 +3,7 @@ title: "How Object work?"
 date: 2022-04-06T00:17:07+09:00
 categories:
 - STUDY
-- JS
+- NODEJS
 ---
 
 자바스크립트는 object라는 단어를 overload했다.

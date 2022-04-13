@@ -3,7 +3,7 @@ title: "how to handle callback?"
 date: 2022-04-06T14:17:07+09:00
 categories:
 - STUDY
-- JS
+- NODEJS
 ---
 
 callbacks

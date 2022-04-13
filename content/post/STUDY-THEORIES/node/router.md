@@ -1,11 +1,11 @@
 ---
-title: "Expressjs의 Router"
+title: "Expressjs의 'middleware' terminology"
 date: 2022-04-13T00:29:13+09:00
 categories:
 - STUDY
-- NODE
+- NODEJS
 tags:
-- expressjs
+- middleware
 thumbnailImage: https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Middleware_Schema.svg/1280px-Middleware_Schema.svg.png
 ---
 

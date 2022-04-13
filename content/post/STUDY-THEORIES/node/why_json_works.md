@@ -3,7 +3,7 @@ title: "why json works?"
 date: 2022-04-06T14:17:07+09:00
 categories:
 - STUDY
-- JS
+- NODEJS
 ---
  
 JSON은 다른 언어끼리 데이터를 효과적으로 교환하는 것을 가능하기 위한 목적을 두고 있다.
