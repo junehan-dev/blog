@@ -1,5 +1,5 @@
 ---
-title: "NodeJS의 module-import 라이브러리, commonjs"
+title: "commonjs의 require동작 순서"
 date: 2022-04-13T22:02:13+09:00
 categories:
 - STUDY
@@ -11,7 +11,6 @@ tags:
 NodeJS의 모듈 시스템과 commonjs
 -------------------------------
   - References
-    - https://nodejs.org/api/modules.html#the-module-object
     - https://en.wikipedia.org/wiki/CommonJS
 
 commonjs
