@@ -62,8 +62,6 @@ publish:
 github: html
 	git commit -am "$$(date)"
 	git push origin main
-	cd output
-	git commit -am "$$(date)"
-	git push origin main
+	cd output && $(MAKE)
 
 .PHONY: html help clean serve github
