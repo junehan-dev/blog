@@ -61,5 +61,9 @@ publish:
 
 github: html
 	git commit -am "$$(date)"
+	git push origin main
+	cd output
+	git commit -am "$$(date)"
+	git push origin main
 
 .PHONY: html help clean serve github
