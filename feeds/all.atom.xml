@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>junehan.dev.log</title><link href="https://junehan-dev.github.io/" rel="alternate"></link><link href="https://junehan-dev.github.io/feeds/all.atom.xml" rel="self"></link><id>https://junehan-dev.github.io/</id><updated>2022-06-30T10:20:00+09:00</updated><entry><title>My super title</title><link href="https://junehan-dev.github.io/my-super-post.html" rel="alternate"></link><published>2022-06-30T10:20:00+09:00</published><updated>2010-10-04T18:40:00+09:00</updated><author><name>Alexis Metaireau</name></author><id>tag:junehan-dev.github.io,2022-06-30:/my-super-post.html</id><summary type="html">&lt;p class="first last"&gt;Short version for index and feeds&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Test&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
+&lt;p class="last"&gt;test&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="yeah"></category><category term="thats"></category><category term="awesome"></category></entry></feed>
