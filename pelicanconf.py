@@ -20,9 +20,9 @@ LINKS = (('github', 'https://github.com/junehan-dev'),
          ('study blog', 'https://junehan-dev.github.io/doc'),
         )
 # Social widget
-#SOCIAL = (('github', 'https://github.com/junehan-dev/'),
+SOCIAL = (('github', 'https://github.com/junehan-dev/'),
 #          ('Another social link', '#'),)
-
+        )
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
