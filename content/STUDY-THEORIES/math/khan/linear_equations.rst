@@ -1,5 +1,5 @@
-inear_equations
-###############
+linear_equations
+################
 
 :date: 2022-01-31 23:15
 :modified: 2022-01-31 23:15
@@ -32,8 +32,6 @@ Terminologies
    Analytic geometry
       해석 기하학, n개의 성분으로 이루어진 좌표를 이용하여 도형의 성질을 탐구하는 기하학. 공간을 다루는데 있어서 빼놓을 수 없다. 위도와 경도로 나타내는 것도 해석기하학에서 도입되는 개념.
 
-
-
 linear equation이란?
 --------------------
 
@@ -46,7 +44,6 @@ linear equation이란?
    - 즉, 이 parameter가 equation에 충족하는 값의 2개의 값으로 점, link로 표현 될 수 있었다.
    - 데카르트가 만든 *cartesian coordinate system in plane*\에 등장하는 x, y축으로 표현되는 *coordinate plane*\을 통해서,
      이 링크들은 관계적인 나열들이 하나의 선처럼 보여져서 설명될 수 있었다.
-
 
 Intercept란?
 ------------
