@@ -1,0 +1,63 @@
+quadratic function
+##################
+
+:date: 2022-06-24 10:04
+:modified: 2022-06-24 10:04
+:category: math
+:slug: quadratic-function-and-graph
+:authors: junehan
+:summary: 이차함수와 그래프
+:tags: function, polynomial function
+
+Terminologies
+-------------
+
+   qudratic
+      라틴어를 기원으로 하는 square를 의미한다.
+
+   polynomial function
+      다항식 함수, 최고 차항의 함수에 따라 상수함수, 일차함수, 이차함수, 삼차함수, 사차함수, ...등으로 분류된다.
+
+   qudratic equation
+      이차방정식, 어떤 2차 식이 1차 식의 곱으로 인수분해 가능하다면 각 1차식을 0으로 만드는 미지수의 값이 해답(x)가 된다.
+
+   completing the square
+      완전제곱식 만들기
+
+quadratic function이란?
+-----------------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLVSO2MxkVnxm7gTmwxwpIg1jFgM7HOzDatiG_CPCM8DoB-pMev8CnSwZIam2fvsn9xezGTTz4dxA3zZDBGVIohffvv5bv_p22FUHAdkZNzBWEXTgfGQunHyBL8Sz6mlOtirU52MzH90Wi4CgSMaNkPI=w1016-h1354-no?authuser=0
+   :alt: handnote to quadratic function intro
+
+quadratic function
+   이전과 같이 함수의 정의를 가져가는 이차함수는 입력 값(x)에 대해서, 출력이 quadratic으로 증가하 는함수를 정의하는 함수이다.
+
+| 이를 통해서 input에 대한 output을 그래프로 확인하는 것이 일차적인 목적이다.
+
+왜 그래프로 굳이 연결하는 것인지?
+
+   좌표평면에서 표현되면 분포 파악이 용이하다.
+   값을 원하는 것이 전부라면, function에 입력 값을 넣는 것으로 바로 알 수 있지만, 다른 함수와 비교하기에는 적합하지않다.
+   따라서 차이에 있어서 시각적으로 어떤 function이 더 적합한지 결정하는 것이 용이해진다.
+
+polynomial 함수의 표현
+
+   - 일반: 식이 전개된 상태로, 모든 정보가 표현된 상태. (slope, a)
+   - 표준: 이차방정식의 완전제곱형태를 따른다. (slope, a + base coordinate)
+
+표준형식으로의 변환
+^^^^^^^^^^^^^^^^^^^
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLVUUdW2hod35psEtu236emr5p87OS5JD4MkeihKiR_k6p9LhiDT4VX5Wn5V4B1CahsblRsxf09zSljuq-bUSCs_aus8dsze0NkoxzOBtCedtPEpCdUDDpBOMB6HuXWrGGlzOKv4PwVBwLk1UYgW7nFw=w1016-h1354-no?authuser=0
+   :alt: method to transform qudratic function expression as complete square
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLVyNtWAhvevjote05k-bo_83haVHgC3qnqxcah-3uI2D-EeoW5TktvwKoc3BObiUrcZM4q_zceWrW0bkGiWTLMQpkfbQwMHTpTf2BeGNO47BTSjF8IFxQDI3c284MNZA3lUDhcxZW2mLpIDDywSD20m=w1016-h1354-no?authuser=0
+   :alt: examples to transform
+
+| 2차방정식(qudratic equation)의 완전 제곱형태(completing the square)로 전환하는 것으로
+| 식을 통해 꼭지점의 point pair값을 알 수 있다.
+| ``a``\의 경우 slope를 바로 의미하기 때문에, ``a(x**2)``\라는 식에서 바로 기울기를 파악할 수 있지만,
+| 꼭지점의 위치, 대칭축를 바로 파악 할 수는 없다.
+| 이를 위해서 표준형태로의 변환을 실행하는데, 이차방정식의 근의 공식과 같은 방법을 사용한다.
+
