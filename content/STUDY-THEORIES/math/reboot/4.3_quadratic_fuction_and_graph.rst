@@ -61,3 +61,16 @@ polynomial 함수의 표현
 | 꼭지점의 위치, 대칭축를 바로 파악 할 수는 없다.
 | 이를 위해서 표준형태로의 변환을 실행하는데, 이차방정식의 근의 공식과 같은 방법을 사용한다.
 
+예시 문제
+^^^^^^^^^
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLUjap5oCJqikLdqGoSf_SrPnRf7k7e0JSUFTA3U8Q7NtcoizOrWwgtOblIdTmraQbNPHAqVUw_1vhBPB1aOTAZiK5mryjsfnpzdEhOxoEfPGCu815aUrXBMXEAvwRLmfan09fcDC84t8xFIvBC-Tae3=w1016-h1354-no?authuser=0
+   :alt: example 1
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLWld9nBNplYXhT6VdWVbi9NqMdjtURCXXePL4GFTGhzS37HoyqH5jcn9KSmazpw31H8k33wcshiGyayCsRStxlwqicDmcHsF1x6WCeEcswLklcyaNcE-Qn25toC6zEnop4dQCM-ij2FuGO6jZ_SNGJ7=w1016-h1354-no?authuser=0
+   :alt: example 2
+
+| 생각보다 많은 문제들이 qudratic function에 포함될 수 있을 것 같다.
+| 길이 20cm의 끈으로 최대넓이를 구성할 수 있는 길이 a를 구하라는 문제 또한 그러하다.
+| 왜 저 값이 가장 큰 넓이가 되는지 증명하라는 질문에 대답할 수 없다면, 문제를 잘 이해한 것도 아니고, 해답 또한 아니다.
+
