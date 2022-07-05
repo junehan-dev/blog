@@ -1,0 +1,85 @@
+integer과 rational number
+#########################
+
+:date: 2022-03-15 09:05
+:modified: 2022-03-15 09:05
+:category: math
+:slug: integer-and-rational-number
+:authors: junehan
+:summary: introduction to numbers
+:tags: number
+
+Terminologies
+-------------
+
+integer
+   *"whole"* 전부라는 의미의 라틴어 기원으로 fractional component없이 쓰여질 수 있는 수
+
+prime number
+   whole number, 1과 자신만이 factor(요소)인 수
+
+prime factorization
+   prime number만으로 factorization(요소화)
+
+divisor
+   나누는 대상
+
+dividend
+   나눠지는 대상
+
+least common multiple
+   최소의 공통 배수, a와 b 두 수 사이의 최소공배수는 a, b로 나뉘어 질 수 있는 최소의 정수를 의미한다.
+   4, 6의 최소공배수는 12가 된다.
+
+greatest common divisor
+   최대의 공통 약수, x, y 두 수 사이의 최대공약수는 x, y를 나눌 수 있는 최대의 정수를 의미한다.
+   prime factorization을 수행한 뒤에 두 수의 공통 약수를 추출하는 것으로 구할 수 있다.
+
+rational number
+   합리적인 수, quotient(분수, 비율), fraction(파편 소수점)으로 표현할 수 있는 수를 포함한다. (분수 혹은 비율로 표현가능한 모든 수)
+
+fraction
+   라틴어로, broken이라는 의미를 지닌 whole의 부분.
+
+quotient
+   라틴어로, how many times의 의미를 지닌 두 숫자의 분할에서 생겨난 양(quantity)을 의미한다.
+   수평선을 기준으로 두 개의 숫자 혹은 변수를 그리는 것으로 표현되며 상단은 dividend, 하단은 divisor이라 부른다.
+
+   .. image:: https://wikimedia.org/api/rest_v1/media/math/render/svg/08896d32d4e0157d7030f0b483be72f0b75b12a1
+      :alt: wikipedia quotient
+
+repeating decimal
+   또는 recurring decimal이라 불리며, 10진 숫자들이 주기적이며, 무한대로 반복되는 부분을 가진 0이 아닌 수를 의미한다.
+   rational로 표현 가능하며, 예로 1/3은 10진수 소수점(decimal point) 이후 주기적인 것이 되는데, 0.333...으로 무한히 반복되는 수를 가진다.
+
+SUBJECT: 2.1 Integer
+--------------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLWeC9k_G99beX_jdVJTzayt8LA15Dd0rH1tDZz4m9iiEWFsMNoqhCaOUzTkbCvPTZhdF1WEP2V-wUmv9Vg9nLdFC89yni9mw6zAQM1MzZwaymMA0mDmabcecwIyjR6OlPHPzJ8Iz2byQu70syBZjKI=w702-h936-no?authuser=0
+   :alt: what is integer
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLUHcdoSLIKoYtNxFvMCNZfXt80OjtB2eyLIHm2yaIKQMotznQtmpUGiCyIWIEJohxsq7Clhgog_PJh2TIq8X9Glg7EjGSOmerpASHmM-ntIFVM7B15qI1m0-hangN153PYBoNpfdPcmFFizLsX0on4=w702-h936-no?authuser=0
+   :alt: prime number and divisor
+
+SUBJECT: 2.2 Rational number
+----------------------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLXgeyhg1w7G6iVcmkvW3UudFy1u_HshywKAxdbubY3phPuefRSkeOAdTxwHpOQr4QwH9r1XpMmFZ_yTG8Y_sds1tuzO0FVS1zrJwik6RNerRnh7pUH_lm4LW2DAZE0qZufzBYpDB4zN2-fPzaC0q2qO=w1016-h1354-no?authuser=0
+   :alt: what is Rational number and quotient
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLXYdn7ep4YvuRHTwuwDwnC54CxAcLb1NnLI_UAgTO3xI10V3NJIrMYn_FqsNF8e0SBIsagc1vCttpHYyRVrLLfCcDblcINAY3UYwaRX52AqjwKQ6F8HtyZwsRgwKkxN05Kctm1EjwRYh0MgNuTqLtX7=w1016-h1354-no?authuser=0
+   :alt: ratio and fraction 
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLW760AV1i7_r0d68C2Yl-SPJILzprrZS4ctHAU4q5Si7OOtvFK4sRVTXYNT6X8ndIsNXq4-J8b7CEP1t32hUKGHvvuLcaSHsvcKyFLxB6ZsBdbN4zPNsLw4j-o0aCWflnUtUqOatIh3k1NxkGAazjrG=w1016-h1354-no?authuser=0
+   :alt: reducing to common denominator
+
+- divisor이 다른 경우 연산을 해야할때, 분모를 최소 공배수로 만들기 위한 곱연산을 dividend에도 적용하 여비율 을유지한다.
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLXWzZNcVspzlYwlK8rNA1ID08CAzPS01be3ePL5omgPLS5i5ALVOMS81XlBDW_Jm-pLLnIFoa1Ih7KX1zLE-xZ75DzE38vAS6vU6zUqcLgzx8tfM-gd7UV9FyJySyt1OugLyCKkMCeU1bNOZrGMCGkn=w1016-h1354-no?authuser=0
+   :alt: repeating decimal
+
+SUBJECT: 2.3 Irrational number
+------------------------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLXehWI8ZOVJpU0FcHbwsFLICPgWZHpcGcwHiUFArXL1cC1MttGG3BW4wCjktzGenD53V77-urtXo4ZE-dLzJl1qsms-aodVQrHLDjlcpF9sQ_raxqJCvDEojVPyZDLRXXwgVCxFpJRWq0JtYnGmJaDd=w1016-h1354-no?authuser=0
+   :alt: what is irrational number
