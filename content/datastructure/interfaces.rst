@@ -2,7 +2,7 @@ Component of DST, interface
 ###########################
 
 :date: 2022-06-16 02:09
-:modified: 2022-06-16 02:09
+:modified: 2022-07-13 12:32
 :category: datastructure
 :slug: interface-in-datastructure
 :authors: junehan
@@ -37,44 +37,64 @@ interface
 ^^^^^^^^^
    **"인터페이스와 자료구조는 다르다."**
 
-.. image:: https://lh3.googleusercontent.com/pw/AM-JKLUaqZqeosJ5JDXPp_SHx8CkNC5gl4cGEKHvhyobqDxlL9uC5o09qSQzqtV239d76gchF8mOuIaKsPO7tQXDdhJ8XTgItEVO7jAJc4oWHF66E11K4qd9Dpe6OYXA9PjuQzLBkU9Zv-5-gJqtGDVA0hU=w916-h1222-no?authuser=0
-   :alt: Component of DST
+   .. image:: https://lh3.googleusercontent.com/pw/AM-JKLUaqZqeosJ5JDXPp_SHx8CkNC5gl4cGEKHvhyobqDxlL9uC5o09qSQzqtV239d76gchF8mOuIaKsPO7tQXDdhJ8XTgItEVO7jAJc4oWHF66E11K4qd9Dpe6OYXA9PjuQzLBkU9Zv-5-gJqtGDVA0hU=w916-h1222-no?authuser=0
+      :alt: Component of DST
 
-Interface는 *"무엇을 하고 싶은지?"* 에 대해 규정하는 부분이다.
+   Interface는 *"무엇을 하고 싶은지?"* 에 대해 규정하는 부분이다.
 
-   - Sequence
+      - Sequence
 
-      - 일반적으로는 사람들이 가장 원하는 데이터가 Array기반의 빠른 동작을 주는 인덱싱 오브젝트.
-      - *(ADT는 다양하다)*: OS에서 제공하는 배열은 stack이나 malloc 이지만 이걸로 다양한 동작방식으로 강제할 수 있다. 
-      - Linked list의 연속성을 관리하고 대표해주는 Node클래스 혹은 인스턴스
+         - 일반적으로는 사람들이 가장 원하는 데이터가 Array기반의 빠른 동작을 주는 인덱싱 오브젝트.
+         - *(ADT는 다양하다)*: OS에서 제공하는 배열은 stack이나 malloc이지만 이걸로 다양한 동작방식으로 구현할 수 있다. 
+         - Linked list의 연속성을 관리하고 대표해주는 Node클래스 혹은 인스턴스
 
-   - Set(Hash map)
+      - Set(Hash map)
 
-      - Hash map은 Hash function이라는 키 생성 함수를 통해서, 배열에 포인터가 저장된 형태로, hash function을 통해서 해당 인덱스로 접근할 수 있도록 구성된 인터페이스.
+         - Hash map은 Hash function이라는 키 생성 함수를 통해서, 배열에 포인터가 저장된 형태로, hash function을 통해서 해당 인덱스로 접근할 수 있도록 구성된 인터페이스.
 
+      - static sequence interface: 변하지 않는 크기 혹은 연속성 개체를 조작하는 ADT
 
-.. image:: https://lh3.googleusercontent.com/pw/AM-JKLUJZAhvAONIMKM2dRlsgYzfEh6cMUdljndNb-zHx73fKhuXwqaCQFkEdgY_4VQwPPc4SGGWr1PE4WqTceMQx9dn9kcyqwL0AeKqhBeYRFf7MA3A-iGKIVY0MNX8jS1wwgDKlS5gqEcNu6BvytBZUZk=w916-h1222-no?authuser=0
-   :alt: Dynamic Interfaces
+         - ``build(w)``\: w-길이 바이트의 연속적인 데이터를 할당 받는다.
+         - ``len()``\: 길이 값을 반환한다.
+         - ``iter_seq()``\: sequence order로 ``seq[i -> w - 1]`` 까지 출력한다.
+         - ``get_at(i)``\: w미만의 값으로 ``seq[i]``\값을 반환한다.
+         - ``set_at(i, x)``\: ``seq[i]``\에 값을 x로 설정한다.
 
-- 파이썬의 리스트가 위에 얘기가 나오는데, ADT에 대해 얘기할 때는 뭘 담는것을 신경쓸 것이 아니라 자료를 어떻게 다루는지를 관찰해야 한다.
-- 일단 거기 들어 있는 데이터가 reference건 아니건 신경 쓸 부분이 아니다. 파이썬의 list는 dynamic array로서 사용성만큼은 C에서 사용하는 array이상의 advanced array의 기능을 자동적으로 처리해주고 있다.
+      - Dynamic Sequence
+
+         .. image:: https://lh3.googleusercontent.com/pw/AM-JKLUJZAhvAONIMKM2dRlsgYzfEh6cMUdljndNb-zHx73fKhuXwqaCQFkEdgY_4VQwPPc4SGGWr1PE4WqTceMQx9dn9kcyqwL0AeKqhBeYRFf7MA3A-iGKIVY0MNX8jS1wwgDKlS5gqEcNu6BvytBZUZk=w916-h1222-no?authuser=0
+            :alt: Dynamic Interfaces
+
+         - sequence의 ``set_at(i, v)``\는 index의 값을 교환하는 개념이지만, 여기선 shifting을 포함한 ``insert_at(i, v)``\는 값을 추가하는 개념으로 현재 길이가 늘어난다.
+         - word-RAM의 동작 방식과 차이가 있다. 이 부분을 해결하는 방법으로는
+
+            - shifting, realloction (array)
+            - linkbased, additional information to sequence (linked list)
+
+         - 파이썬의 리스트가 위에 얘기가 나오는데, ADT에 대해 얘기할 때는 뭘 담는 것을 신경쓸 것이 아니라 자료를 어떻게 다루는지를 관찰해야 한다.
+         - 파이썬의 *list 느슨한 사이즈제약*\이란, 즉 huristic에 의하여, 사용하려는 사이즈보다 조금 더 넓은 크기의 배열을 초기 할당하여 재할당을 방지한다.
 
 
 Physical Datastructure
 ^^^^^^^^^^^^^^^^^^^^^^
-   **"인터페이스가 없어도 물리적인 메모리의 주소는 존재한다. 하지만, 인터페이스가 있어야 우리는 사용할 수 있다. 그것이 아주 단순한 문자열 배열일지라도.**
 
-반면 흔히 통칭하는 Data-structure는 *"어떻게 할 수 있는지?"*\를 규정하거나, 이미 규정된 부분이다.
+   *"인터페이스가 없어도 물리적인 메모리의 주소는 존재한다. 하지만, 인터페이스가 있어야 우리는 사용할 수 있다. 그것이 아주 단순한 문자열 배열일지라도."*
 
-   - Array based: stack automatic
+      반면 흔히 통칭하는 Data-structure는 *"어떻게 할 수 있는지?"*\를 규정하거나, 이미 규정된 부분이다.
 
-      - string
-      - array of bytes
-      - sequencial to physical
+   - w-bit words static memory *(64bit generally)*
 
-         - 가장 기본적인 형태
-         - 재할당의 리스크를 변경시에 순서, 즉 시퀸스를 다시 구성해줘야 하는 단점.
+      - 가장 기본적인 형태, 즉 word기반 RAM model of computation 자체에서 제공하는 물리적인 구조와 일맥상통하는 것
+      - *consecutive chunk of memory*\: 연속적인 순서를 보장하는 덩어리의 메모리
+      - 변경시에 재할당의 리스크를 순서, 즉 시퀸스를 다시 구성해줘야 하는 단점.
+      - 예시
 
+         - string
+         - n-bytes
+         - sequencial to physical
+
+      - 이를 조작하기 위해 array라는 개념의 ADT를 제공한다.
+      
    - Pointer based: link based data structure
 
       - dynamic allocation
@@ -84,4 +104,3 @@ Physical Datastructure
          - 어떻게보면, 진화된 형태
          - 하지만, 주소에 대해 값을 가져오라는 명령을 추가로 수행하기 때문에 단점은 있다.
          - 마찬가지로, 명령이 늘어나는 것에 부담을 적은 경우에 더 이점이 있고, 관리가 용이하다.
-
