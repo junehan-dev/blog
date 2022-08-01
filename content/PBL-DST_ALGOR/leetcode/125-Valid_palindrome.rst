@@ -18,6 +18,9 @@ REFERENCE
 Python 풀이
 -----------
 
+USING INDEX
+^^^^^^^^^^^
+
 - Runtime: *75ms, faster than 49.99: 속도 평균*
 - MemUse: *14.5mb, better than 57.28: 메모리 사용량 조금 더 나음*
 
@@ -42,6 +45,20 @@ Python 풀이
                    end -= 1;
            return (result);
 
+USING REGEX
+^^^^^^^^^^^
+
+- Runtime: *64ms, faster than 38.99: 속도는 좀 더 빠르게 개선됨*
+- MemUse: *15.6mb, better than 15.28: 메모리 사용량은 조금 더 악화되었는데, 메서드 호출이 많아진 원인*
+
+.. code-block:: python
+
+   class Solution:
+       def isPalindrome(self, s:str) -> bool:
+           s = s.lower();
+           s = re.sub("[^a-z0-9]", "", s);
+           return (s == s[::-1]);
+    
 해설
 ^^^^
 
@@ -54,6 +71,12 @@ Python 풀이
 #. 비교를 위해 다른 배열을 사용할 필요는 없습니다.
 
    - 이미 저장된 배열 자료구조에서 pair 문자값을 비교 할때에, 답을 알 수 있기 때문에 새로운 가공을 필요로 하지 않습니다.
+
+
+| deque를 사용하거나 Regex를 사용하는 방법이 있는데, 특히 REGEX를 사용하는 방법은 엄청난 개선을 불러올 것이라고 생각했다.
+| 그러나 의외로속도에서 약간의 개선이 일어날 뿐 편차치가 있고, 오히려 Index를 사용한 방법은 균일한 효과를 불러왔다.
+| 이로 미루어보아 코드의 양을 줄이는 것이 큰 목적이 아니라면,
+| 기본적인 조작방식을 선택하는 c스타일 프로그래밍이 최선의 결과를 불러온다는 것을 알 수 있다.
 
 C 풀이
 ------
