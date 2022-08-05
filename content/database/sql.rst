@@ -11,7 +11,7 @@ Basic Sql
 SUBJECT: 데이터베이스 기본 쿼리문을 파악하고 이해하자
 -----------------------------------------------------
 
-  - References
+   - References
 
       - https://www.w3schools.com/mysql/default.asp
       - text book, Learning sql 3rd edition
