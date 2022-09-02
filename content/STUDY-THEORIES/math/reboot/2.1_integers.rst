@@ -1,13 +1,13 @@
-integer과 rational number
-#########################
+2.1 integer과 rational number
+#############################
 
 :date: 2022-03-15 09:05
 :modified: 2022-03-15 09:05
 :category: math
 :slug: integer-and-rational-number
 :authors: junehan
-:summary: introduction to numbers
-:tags: number
+:summary: 숫자의 이해, 정수와 유리수(합리적인 수)
+:tags: numbers
 
 Terminologies
 -------------

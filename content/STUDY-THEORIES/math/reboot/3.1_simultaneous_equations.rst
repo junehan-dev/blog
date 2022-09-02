@@ -1,0 +1,39 @@
+3.2 simulataneous equation and inequation
+##########################################
+
+:date: 2022-04-02 09:05
+:modified: 2022-04-02 09:05
+:category: math
+:slug: simulataneous-equation-and-inequation
+:authors: junehan
+:summary: 연립 부등식과 연립 방정식
+:tags: equations
+
+TERMINOLOGIES
+-------------
+
+*equation*
+   | 방정식, 수학에서 equation은 표현형식(formula)으로 두 개의 표현이 동일함을 표현하는 형식이다.
+   | 다수의 variables를 포함한 equation을 해결하는 것은 "변수의 값이 어떻게 설정되어야 동일함을 증명하는가" 에 대한 것이다.
+
+Simultaneous equation, 연립 방정식
+----------------------------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLUycQeZ1MURfNiiRSybtO4fsKwPUQmYbQ584x1-rt4-dGM9ircDjhW_dujnpnHURJlXcf_23SghuUgrcwWi5mGxKztD21qgwb8PuIVo9xsuUB74q6evfs3fScHfomkNl1aBtoa4RbzghuMxhncOzVE0=w971-h1294-no?authuser=0" title="what is simultaneous equation?"
+   :alt: note to simultanous equation
+
+| *간단하게는 일차방정식을 2개 사용하여, 두 식의 교차되는 합을 특정하는 것.*
+| 일차방정식(linear equation)의 경우 미지수(variable)이 하나였지만, 상황에 따라서 미지수를 여러 개로 두어야 할 떄도 있다.
+| 미지수가 2개 이상일 때, 하나의 equation formula로는 하나의 답을 구할 수 없다.
+
+   - ``x = y - 1`` 을 만족하는 x, y의 값, 즉 linear equation의 모든 pair of x, y는 무수하다.
+
+| 즉 두 개의 formula가 공유하는 common value를 구하는 것으로 해결이 가능하다.
+
+
+Simultaneous inequation, 연립 부등식
+------------------------------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLXHi8gPiDL_7FwdS_ZUo4bNRZR1e_VTCO_DERieKU-1QK56yoKyEPOHob6Baag2w9_NkMj30khyJ-ZOPi9HnjKPZ8jRGHACTISW4ZQT7BrLEnah-WCU1VC1MHqQLAE1UnsD9UcjWWgnb-1aEK-CSjIh=w971-h1294-no?authuser=0" title="what is simulataneous inequation?"
+   :alt: note to simultanous inequation
+
