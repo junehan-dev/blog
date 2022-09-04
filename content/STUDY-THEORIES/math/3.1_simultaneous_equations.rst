@@ -19,7 +19,7 @@ TERMINOLOGIES
 Simultaneous equation, 연립 방정식
 ----------------------------------
 
-.. image:: https://lh3.googleusercontent.com/pw/AM-JKLUycQeZ1MURfNiiRSybtO4fsKwPUQmYbQ584x1-rt4-dGM9ircDjhW_dujnpnHURJlXcf_23SghuUgrcwWi5mGxKztD21qgwb8PuIVo9xsuUB74q6evfs3fScHfomkNl1aBtoa4RbzghuMxhncOzVE0=w971-h1294-no?authuser=0" title="what is simultaneous equation?"
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLUycQeZ1MURfNiiRSybtO4fsKwPUQmYbQ584x1-rt4-dGM9ircDjhW_dujnpnHURJlXcf_23SghuUgrcwWi5mGxKztD21qgwb8PuIVo9xsuUB74q6evfs3fScHfomkNl1aBtoa4RbzghuMxhncOzVE0=w971-h1294-no?authuser=0
    :alt: note to simultanous equation
 
 | *간단하게는 일차방정식을 2개 사용하여, 두 식의 교차되는 합을 특정하는 것.*
@@ -34,6 +34,6 @@ Simultaneous equation, 연립 방정식
 Simultaneous inequation, 연립 부등식
 ------------------------------------
 
-.. image:: https://lh3.googleusercontent.com/pw/AM-JKLXHi8gPiDL_7FwdS_ZUo4bNRZR1e_VTCO_DERieKU-1QK56yoKyEPOHob6Baag2w9_NkMj30khyJ-ZOPi9HnjKPZ8jRGHACTISW4ZQT7BrLEnah-WCU1VC1MHqQLAE1UnsD9UcjWWgnb-1aEK-CSjIh=w971-h1294-no?authuser=0" title="what is simulataneous inequation?"
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLXHi8gPiDL_7FwdS_ZUo4bNRZR1e_VTCO_DERieKU-1QK56yoKyEPOHob6Baag2w9_NkMj30khyJ-ZOPi9HnjKPZ8jRGHACTISW4ZQT7BrLEnah-WCU1VC1MHqQLAE1UnsD9UcjWWgnb-1aEK-CSjIh=w971-h1294-no?authuser=0
    :alt: note to simultanous inequation
 
