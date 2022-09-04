@@ -7,7 +7,7 @@
 :slug: quadratic-function-and-graph
 :authors: junehan
 :summary: 이차함수와 그래프
-:tags: function, polynomial function
+:tags: functions
 
 Terminologies
 -------------

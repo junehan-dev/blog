@@ -7,7 +7,7 @@ linear_equations
 :slug: solving-to-linear-equations
 :authors: junehan
 :summary: 선형 방정식의 정리
-:tags: linear equation
+:tags: equations
 
 Terminologies
 -------------

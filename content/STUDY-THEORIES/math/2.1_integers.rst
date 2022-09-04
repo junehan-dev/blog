@@ -73,7 +73,7 @@ SUBJECT: 2.2 Rational number
 .. image:: https://lh3.googleusercontent.com/pw/AM-JKLW760AV1i7_r0d68C2Yl-SPJILzprrZS4ctHAU4q5Si7OOtvFK4sRVTXYNT6X8ndIsNXq4-J8b7CEP1t32hUKGHvvuLcaSHsvcKyFLxB6ZsBdbN4zPNsLw4j-o0aCWflnUtUqOatIh3k1NxkGAazjrG=w1016-h1354-no?authuser=0
    :alt: reducing to common denominator
 
-- divisor이 다른 경우 연산을 해야할때, 분모를 최소 공배수로 만들기 위한 곱연산을 dividend에도 적용하 여비율 을유지한다.
+- divisor이 다른 경우 연산을 해야할때, 분모를 최소 공배수로 만들기 위한 곱연산을 dividend에도 적용하여 비율을 유지한다.
 
 .. image:: https://lh3.googleusercontent.com/pw/AM-JKLXWzZNcVspzlYwlK8rNA1ID08CAzPS01be3ePL5omgPLS5i5ALVOMS81XlBDW_Jm-pLLnIFoa1Ih7KX1zLE-xZ75DzE38vAS6vU6zUqcLgzx8tfM-gd7UV9FyJySyt1OugLyCKkMCeU1bNOZrGMCGkn=w1016-h1354-no?authuser=0
    :alt: repeating decimal
