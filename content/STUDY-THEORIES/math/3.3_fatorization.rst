@@ -1,0 +1,47 @@
+3.3 polynomial and factorization
+################################
+
+:date: 2022-04-11 13:12
+:modified: 2022-04-11 13:12
+:category: math
+:slug: polynomial-and-factorization
+:authors: junehan
+:summary: 다항식과 인수분해
+:tags: factorizations
+
+
+TERMINOLOGIES
+-------------
+
+*polynomial*
+   | 다항식(polynomial)은 indeterminates와 (addtion, subtraction, multiplication의 operations를 수행하는) coefficients로 구성된 expression을 의미한다.
+   | 그리고 indeterminates(미지의 대상)에 대해 non-negative integer exponentation을 전제로 한다.
+   | 예시) ``x**2 - 4*x + 7``\, ``x**3 - 2xyz**2 - yz + 7``
+
+*base*
+   | 거듭제곱에서 여러번 곱해지는 숫자나 문자를 뜻한다. ``2**4``\의 밑은 2이고 exponent(지수)는 4이다.
+
+*factorization*
+   | 수학적 object를 다수의 요소(factor)의 곱으로 작성하는 것을 의미한다.
+   | 주로 더 작거나 간단한 object로 변환하는 것이다.
+   | 예시) ``x**2 - 4 = (x + 2)(x - 2)``
+
+*integer factorization*
+   | 구조화, 모든 양의 정수는 prime number의 product로 구조화 될 수 있다는 기초적인 이론을 증명하는 방법이다.
+   | 정수 구조화(소인수 분해)의 경우 RSA 암호화 시스템에서 public-key 암호화를 구현하는데에 사용된다.
+   | 예시) ``32 = 2 * 2 * 2 * 2 * 2``
+
+polynomial factorization
+------------------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLWlM9CMrD1asD_D8hvveI2jKEWhPWtj0jTIBBVCOkaVuBObOMRT3O8mmfoJwT9wTlcKGpeTgAh-1HtFtpSNPoMG_F5f64v4csJuH13q-CAlFi8KxbZm3IWfsn-HYJwRrQqKG4b_eIB-gJXslklf31ty=w971-h1294-no?authuser=0
+   :alt: note to polynomial factorization
+
+.. image:: https://lh3.googleusercontent.com/pw/AL9nZEX77IKUgePslfe9qBCcfuwicUOXbIxX4x8holpBOkiU3l735UP5SP43tUxSBnKdk80Ucmx1HpJzHzjN_hJkFOaznlzq22ZRm7GRI2Ibxmj_k2nEL934O735ObRO65l77O-3h1sH6Y1AAEaT-jun9CKK=w1440-h1920-no?authuser=0
+   :alt: note to patterns to polynomial factorization
+
+factorization and integer factorization
+---------------------------------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AM-JKLV8dHifoMKPez2PX7rUUJmCD0yhVfJ_VjShYcKDhQqNOe7IYc5x5q367yrjCM84xouorzNKyrhem5YhAalNep-vuv0dy-3zm3ZxcbWOcVzMuBdSsyfgWdaieOJO7vXgBmP-_2KW4B65-26rOfkCo91m=w971-h1294-no?authuser=0
+   :alt: note to factorization
