@@ -39,7 +39,7 @@ rational funciton의 표현
    - 표준: *y = a/(x - p) + q (a != 0)*
 
 irrational function이란?
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
 .. image:: https://lh3.googleusercontent.com/Cpij7zxEG-eZiUseizpkkRm-eTmGFIRNXfLNFabLBOKSuGQgf2cibykClSDKiyyEuKVCHM1K_hiTPvCCk9ON8pKVnMiVf4M5Cil38C63WhRvg0Ol8fewh_-OcyqqSQPyevqEL1AJSKcJzFp3M_VWwSAbPaqDDisSCU0TWKbMPW8-PNfXfLaBGGUJDBsB0590XO7rZcovGa9cjjQlvDjxP4LHyxcLIT1b-2XeaO5n8mKpPTqTAPsDWEo5IU47gq79F60j6e4ljCotwC8uFuKverwSfV8hgpLXHPM5c9mF2dj4QEh47BGWsbBmRcIKlb_wA7M4gPq8zkINJkHAQBVOKJxx9mRGdB3j_S_ibvTMrjxcizMj09jIbX-O8OE88HVNr1dg4jZ14LFHzhcmqt42suXLoM9C_Op3hW2lzhcBjAYi8FR2kgEPVVtN_F22aLni7B-4cIGF0tNL-BbcRzP6zPeDfWmr-6w3VeJRMsGtBAvF3BGPChXCIHp4hq9cQ1r5eNnKw8AA-JS37EzoqDg5oJ09xdJ1ds0mFbQKBSRXc56vPFUkr2sSBVs3KQUvsljQAaIEhJtwj3FvAtBttay9yeRk4omUyIfvI15DdgBpJM5eaWSqDicDEqMnRELagnzR4OYI-KuL7s9O3Fcxb1bpU0na9iczxI85gZ3mrsCiHA-zSOu8Dm74cCB7LT7h9i_PwxriSdCShQjeRPeo2SqqZNwjFJPlUe6Lyqf1zRGUYujVMUG5_NPq85F2ub4=w1440-h1920-no?authuser=0
    :alt: handnote to irrational functions
