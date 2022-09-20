@@ -1,0 +1,57 @@
+4.4 rational and irrational functions
+#####################################
+
+:date: 2022-09-18 14:30
+:modified: 2022-09-18 14:35
+:category: math
+:slug: rational-and-irrational-functions
+:authors: junehan
+:summary: 유리함수와 무리함수
+:tags: functions
+
+Terminologies
+-------------
+
+rational number (유리수)
+   수학에서, rational number는 정수의 비율과 나눔으로 표현할 수 있는 수를 의미한다.
+
+irrational number (무리수)
+   | irrational numbers는 rational number로 표현될 수 없는 실수(real numbers)를 의미한다.
+   | 그 말은, 두 정수의 비율로 표현할 수 없으며, *Pi*\, square root of two등이 포함된다.
+
+rational function이란?
+----------------------
+
+.. image:: https://lh3.googleusercontent.com/uHao6ANlMtSVwKWYAt-A3HmlBQGA3VWtW_IEZgHeHTylf8SAnFKaufH2HLk-o4pJ5lN7z8CE2QSF4FHFXdbr22nVZNuKfTJnRN9oEOWZDIjZfyV3PsX3Eu6PTLMC5-j56KVR7jhgbgHlwMIEDLxv9T2EG8ARgPYcNzaqvWt85MEEbWKl6x0P0lwlujlJFNq5O2n6U0Sr20RkLczLT_HAdcoznxyDfZLBHXaFQmuQw2mlny-nKT_r-VocvnBBcxSCHNDwGxSp6pRbOTOUhoIBYq7ZgwIlE2_RGj5nrHoiFLPe8jmLpWS6fXYrEnLnmcnxkFvjMR_-EvjBYBL_IEEHHgQ07xk3iV5JJy6-Gc08ve5lo2OX8tEG61jlG6sGcH1lDJo76IH4EBxWcF8b792-ljQ1fBH4oNVvZXbpjEIH1MLavTHJmDLKHN77LpnUZsmJhH5nFLaDQfcbFeKNUVNoa_FFnYwISOfO4VExxrpdymVqPEqXn0iy4y7MoYcN3c6gCzXa3yTwbRo4I-ukqTJ-Ha9nRUyaeSUxhkqqFNFkK878Op8UmH-LtpqFPbfv34bcJFV-0sVqkZ7Sl8-2vdqHITWRKlTIzC8hfn1S-cJVCeAUzKm2zQBgrx0aSrft1s1Xn4a8XnrVe7K7pYkk1BUfnEqch02VUVwAaz4lGgjM3TaEOY7jp7x1QzN2NL5XQQAR0hFcpk7dviY77TV7p6SdQmvbC0blkXzCl0Nfxt8wIjPyetqC5r2RJzU5zHM=w1440-h1920-no?authuser=0
+   :alt: handnote to rational functions
+
+*rational function*
+
+   | rational fraction으로 정의 될 수 있는 함수를 의미한다. *(일차 함수와 다항 함수의 경우 또한 Fraction 으로 표현 가능하다.)*
+   | 모든 polynomial function은 rational function 이라고 할 수 있다.
+   | 기본적으로 지칭하는 유리함수는 x, y의 관계가 반비례한 함수이며, coefficient인 (y = ax**2 + bx + cx) 의 (a, b, c)는 상관없다.
+   | (a, b, c)와 같은 coefficient는 ``field k``\에 속한다고 표현하며, K에 대한 유리함수라고 얘기할 수 있다.
+
+
+rational funciton의 표현
+
+   - 일반: *y = a/x + b (a != 0)*
+   - 표준: *y = a/(x - p) + q (a != 0)*
+
+irrational function이란?
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: https://lh3.googleusercontent.com/Cpij7zxEG-eZiUseizpkkRm-eTmGFIRNXfLNFabLBOKSuGQgf2cibykClSDKiyyEuKVCHM1K_hiTPvCCk9ON8pKVnMiVf4M5Cil38C63WhRvg0Ol8fewh_-OcyqqSQPyevqEL1AJSKcJzFp3M_VWwSAbPaqDDisSCU0TWKbMPW8-PNfXfLaBGGUJDBsB0590XO7rZcovGa9cjjQlvDjxP4LHyxcLIT1b-2XeaO5n8mKpPTqTAPsDWEo5IU47gq79F60j6e4ljCotwC8uFuKverwSfV8hgpLXHPM5c9mF2dj4QEh47BGWsbBmRcIKlb_wA7M4gPq8zkINJkHAQBVOKJxx9mRGdB3j_S_ibvTMrjxcizMj09jIbX-O8OE88HVNr1dg4jZ14LFHzhcmqt42suXLoM9C_Op3hW2lzhcBjAYi8FR2kgEPVVtN_F22aLni7B-4cIGF0tNL-BbcRzP6zPeDfWmr-6w3VeJRMsGtBAvF3BGPChXCIHp4hq9cQ1r5eNnKw8AA-JS37EzoqDg5oJ09xdJ1ds0mFbQKBSRXc56vPFUkr2sSBVs3KQUvsljQAaIEhJtwj3FvAtBttay9yeRk4omUyIfvI15DdgBpJM5eaWSqDicDEqMnRELagnzR4OYI-KuL7s9O3Fcxb1bpU0na9iczxI85gZ3mrsCiHA-zSOu8Dm74cCB7LT7h9i_PwxriSdCShQjeRPeo2SqqZNwjFJPlUe6Lyqf1zRGUYujVMUG5_NPq85F2ub4=w1440-h1920-no?authuser=0
+   :alt: handnote to irrational functions
+
+*irrational function*
+
+   | 근호 안에 독립변수(x)가 포함된 무리식으로 나타나는 함수.
+   | 일반적으로 irrational이라는 형용사는 함수에 대해 사용되는 단어가 아니다.
+   | (*따라서 위키페디아에서 irrational function이라는 대상을 찾을 수 는 없다.*\)
+
+irrational function의 표현
+
+   - 일반: *y = log(ax)*
+   - 표준: *y = log(a(x - p)) + q*
+

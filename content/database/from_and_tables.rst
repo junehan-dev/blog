@@ -1,15 +1,15 @@
-Query Primer 3. from
-#####################
+Query Primer 3. from and tables
+###############################
 
 :date: 2022-08-05 17:32
 :modified: 2022-08-05 19:01
 :category: database
-:slug: sql-query-from
+:slug: sql-query-from-and-tables
 :authors: junehan
-:summary: intro to from clause
+:summary: intro to from clause and tables
 
 SUBJECT: from문을 파악하고 이해하자
--------------------------------------
+-----------------------------------
 
    - References
 
