@@ -7,6 +7,7 @@ Query Primer 2. select
 :slug: sql-query-select
 :authors: junehan
 :summary: intro to select clause
+:tags: sql-select
 
 SUBJECT: select문을 파악하고 이해하자
 -------------------------------------

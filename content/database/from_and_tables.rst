@@ -7,6 +7,7 @@ Query Primer 3. from and tables
 :slug: sql-query-from-and-tables
 :authors: junehan
 :summary: intro to from clause and tables
+:tags: sql-tables
 
 SUBJECT: from문을 파악하고 이해하자
 -----------------------------------

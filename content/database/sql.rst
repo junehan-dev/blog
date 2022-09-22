@@ -7,6 +7,7 @@ Basic Sql
 :slug: Basic-sql-language
 :authors: junehan
 :summary: basic to sql
+:tags: sql
 
 SUBJECT: 데이터베이스 기본 쿼리문을 파악하고 이해하자
 -----------------------------------------------------
