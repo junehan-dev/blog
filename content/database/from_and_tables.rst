@@ -2,7 +2,7 @@ Query Primer 3. from and tables
 ###############################
 
 :date: 2022-08-05 17:32
-:modified: 2022-08-05 19:01
+:modified: 2022-08-22 19:01
 :category: database
 :slug: sql-query-from-and-tables
 :authors: junehan
