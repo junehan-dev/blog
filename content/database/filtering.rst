@@ -7,7 +7,7 @@ Query Primer 4. Fitering
 :slug: sql-filtering
 :authors: junehan
 :summary: intro to filtering in sql
-:tags: sql
+:tags: sql-where, sql
 
 SUBJECT: Filtering의 방법과 차이를 이해하자
 -------------------------------------------

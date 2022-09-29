@@ -7,7 +7,7 @@ Query Primer 1. What is Query
 :slug: sql-query-explanations
 :authors: junehan
 :summary: how-dose-Query-work
-:tags: sql 
+:tags: sql
 
 SUBJECT: 쿼리의 동작방식과 개요
 -------------------------------
