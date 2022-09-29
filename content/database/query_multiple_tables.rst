@@ -2,7 +2,7 @@ Query Primer 5. Querying Multiple Tables, JOIN
 ##############################################
 
 :date: 2022-08-25 15:18
-:modified: 2022-08-25 18:57
+:modified: 2022-08-29 15:57
 :category: database
 :slug: querying-multiple-tables-join
 :authors: junehan
