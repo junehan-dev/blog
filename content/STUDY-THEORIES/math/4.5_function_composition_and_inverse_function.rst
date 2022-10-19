@@ -1,0 +1,45 @@
+4.5 function composition and inverse function
+#############################################
+
+:date: 2022-10-07 15:30
+:modified: 2022-10-19 10:15
+:category: math
+:slug: function-composition-and-inverse-function
+:authors: junehan
+:summary: 합성함수와 역함수
+:tags: functions
+
+Terminologies
+-------------
+
+*function composition*
+   | '∘' 연산자로 표현되며, 이 연산자는 다수의 함수 *f, g*\를 피연산자로 한다.
+   | 이는 ``h = g ∘ f`` || ``h = g(f(x))``\의 표현을 가진다. 
+   | 여기서 g의 입력은 f의 x에 대한 출력에 적용된다.
+   | 직관적으로, **함수를 조합하는 것은 f의 출력을 g함수에 입력하는, 과정을 연결하는 것이다.**
+
+      .. note::
+
+        함수의 합성은 함수의 곱과는 차이가 있는데, 대표적으로 함수의 합성은 commutative(대화적인, 교환 법칙, ``f ∘ g != g ∘ f``\)하지 않다.
+
+function composition?
+---------------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AL9nZEXHeAA0kB_b1XCG2TTIvtzbIJqq-dFT3BRzqks6tOmynhaBC_N-immjWsnhw5O6GF99M6HdiBGTFaFjtPwEIAhF8MHeKpy3rMRxbPMjoik-rfk8Qrx83UtUj3fhuGQMiUusbems1Y3ExDS4GWYy8KMy=w1016-h1353-no?authuser=0
+   :alt: handnote to function composition
+
+| 이제까지 살펴본 polynomial function, linear function, rational irrational function 등은 단순히 하나의 식으로 표현되는 하나의 속성이다.
+| 현실의 문제들은 단순히 하나의 함수(두 수의 대응관계)만으로 표현하기에는 어려울 것이다.
+| 때로는 함수 여럿을 한데 묶어서 조합하여 나타낼 수 있는 복잡한 과정을 가지는 대응 관계도 존재한다. 이것을 다수의 함수의 조합으로 풀어낼 수 있는데,
+| 이 함수의 조합 자체를 *function composition(합성함수)*\라 부르고, 함수를 연결해 합성함수를 만들거나, 합성함수를 일반함수로 분해하는 과정을 포함한다.
+
+inverse function?
+-----------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AL9nZEU1Q-cuYGH2GtieQZHozFgljXaBbYWxM7kfzg0cs5jS6_XaGCnCpk6oMk3hlAx02q2pMCvp-XYF2JV49m8Mi9m2CMPlvHuR0T4wVxNX9OCTRY7uzdM-XcazX-ZgoSjKWvzvBokWjtcLbjMh_UmuNMBD=w1016-h1353-no?authuser=0
+   :alt: handnote to inverse function
+
+| 함수는 방향이 있는 대응관계이고, associative(수의 관계)라는 속성이 가장 중심이 된다.
+| 함수가 되는 조건으로는 단순히 입력값이 하나의 출력값으로 관계를 가지면 되는 것이지만,
+| one to one의 관계를 만족하는 함수의 경우 반대의 관계로 표현하여도 함수의 조건을 만족한다.
+| 이를 *inverse function(역함수)*\라고 한다.
