@@ -12,7 +12,29 @@
 Terminologies
 -------------
 
-*function composition*
+*bijective function*
+   | 수학에서, one-to-one 대응상태 혹은 반전 가능한 bijection function으로 알려진 개념으로,
+   | 두 개의 set에서 각 요소가 다른 set의 한 요소에 대해 짝이 되는 함수를 의미한다.
+   | **X, Y가 서로 하나의 요소에 각각 대응하면 bijective**
+
+*injective function (one-to-one)*
+   | injective function은 고유한 요소인 자신의 domain들을 distinct elements로 연결하는 함수를 의미한다.
+   | 다르게 말하면 함수의 모든 codomain은 domain의 **최대(at most) 하나에 대한** 출력이다.
+   | one-to-one function과 bijection function을 의미하는 one-to-one correspondence와 헷깔리지 말아야하는 요소인데,
+   | 이것은 정확히 하나의 출력은 하나의 입력에 대해 대응되는 것을 의미한다.
+   | **X가 하나의 Y요소에 대응하면 injective**
+
+*surjective function (onto)*
+   | y의 모든 요소는 x에서부터 나올 수 있음을 얘기한다.
+   | 다르게 말하면, 함수의 모든 codomain은 domain의 요소 중 **최소(at least) 하나에 대한** 출력이다.
+
+function composition?
+---------------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AL9nZEXHeAA0kB_b1XCG2TTIvtzbIJqq-dFT3BRzqks6tOmynhaBC_N-immjWsnhw5O6GF99M6HdiBGTFaFjtPwEIAhF8MHeKpy3rMRxbPMjoik-rfk8Qrx83UtUj3fhuGQMiUusbems1Y3ExDS4GWYy8KMy=w1016-h1353-no?authuser=0
+   :alt: handnote to function composition
+
+*function composition* on wiki
    | '∘' 연산자로 표현되며, 이 연산자는 다수의 함수 *f, g*\를 피연산자로 한다.
    | 이는 ``h = g ∘ f`` || ``h = g(f(x))``\의 표현을 가진다. 
    | 여기서 g의 입력은 f의 x에 대한 출력에 적용된다.
@@ -21,12 +43,6 @@ Terminologies
       .. note::
 
         함수의 합성은 함수의 곱과는 차이가 있는데, 대표적으로 함수의 합성은 commutative(대화적인, 교환 법칙, ``f ∘ g != g ∘ f``\)하지 않다.
-
-function composition?
----------------------
-
-.. image:: https://lh3.googleusercontent.com/pw/AL9nZEXHeAA0kB_b1XCG2TTIvtzbIJqq-dFT3BRzqks6tOmynhaBC_N-immjWsnhw5O6GF99M6HdiBGTFaFjtPwEIAhF8MHeKpy3rMRxbPMjoik-rfk8Qrx83UtUj3fhuGQMiUusbems1Y3ExDS4GWYy8KMy=w1016-h1353-no?authuser=0
-   :alt: handnote to function composition
 
 | 이제까지 살펴본 polynomial function, linear function, rational irrational function 등은 단순히 하나의 식으로 표현되는 하나의 속성이다.
 | 현실의 문제들은 단순히 하나의 함수(두 수의 대응관계)만으로 표현하기에는 어려울 것이다.
@@ -43,3 +59,5 @@ inverse function?
 | 함수가 되는 조건으로는 단순히 입력값이 하나의 출력값으로 관계를 가지면 되는 것이지만,
 | one to one의 관계를 만족하는 함수의 경우 반대의 관계로 표현하여도 함수의 조건을 만족한다.
 | 이를 *inverse function(역함수)*\라고 한다.
+| 역함수를 만드는 방법은 두 변수의 위치를 바꾸고 commutative property를 사용하여 ``y = x``\의 식으로 변환하는 것이다.
+
