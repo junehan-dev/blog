@@ -1,0 +1,68 @@
+5.3 statistics
+##############
+
+:date: 2023-01-03 09:45
+:modified: 2023-01-16 11:22
+:category: math
+:slug: intro-to-statistics
+:authors: junehan
+:summary: 확률
+:tags: statistics
+
+Terminologies
+-------------
+
+*pertain to something*
+   특정한 것과 연결되다.
+
+*inference*
+   가정, 추측, 가설
+
+*involves*
+   연관짓다.
+
+*mean*
+   | (여러 의미가 있다. 대표값)
+   | - 통계학에서는, 주어진 데이터의 묶음을 요약하는(위도 경도 처럼), 주어진 데이터 묶음을 더 잘 이해하기 위한 것에 속하는 것.
+   | - data set에 있어서, 수학적 mean은 평균을 의미하는데, 평균 그 자체인 것이 아니라 평균이 mean으로 이해될 수 있다고 볼 수 있다.
+       *(arithmetic mean is measure of central tendency of finite set of numbers)*
+       유한한 그룹의 숫자에서 주요한 경향을 측정하는 것이다.
+       특정하자면, 중앙값(median).
+
+*deviation(편차, 분포)*
+   | 평균으로부터 떨어져 있는 정도를 의미하며 집단의 편차, 평균에서 부터의 거리의 총합은 0이 된다.
+   | 얼마나 분산되어 있는지를 표기하기 위해서 편차의 제곱을 총합하는 수치를 사용한다.
+   | 제곱의 총합수차는 자료에 따라 비대하게 커질 수 있어서, 분산값에 제곱근을 구하여 *표준편차(standard deviation)*\이라고 부른다.
+
+Statistics?
+-----------
+
+statistics in wikipedia::
+
+   | 통계란, 데이터의 조직, 모음, 분석, 해석, 표시에 대한 특정 분야의 학문이다.
+   | 사회문제, 산업 과학의 문제등에 있어서 통계적인 모델로 시작하는 것은 보편적이다.
+   | 총조사(census)가 이루어 질 수 없을때, 표본조사등을 통해서 샘플링이 어떤 추측(inferences) 혹은 결론이 전체에 대한 사실로 확장될 수 있다 라는 확신을 줄 수 있다.
+   | 수학의 분파, 데이터의 분석과 관련된 과학의 수학적인 기초.
+
+   - 통계 방법론
+
+      - descriptive statistics(central tendency and character of set)
+         mean이나 표준 분포(deviation)와 같은 indexes(지표)를 사용한 sample로 데이터를 요약하는 방법.
+
+      - inferential statistics(based on probability theory)
+         random variation에 데이터를 한정하여 결론 짓는 방법.
+
+deviation
+---------
+
+- 편차 (deviation)
+   대상 자료 집단에서 한 대상의 평균에서의 차이
+
+- 분산 (variance)
+   대상 자료 집단의 편차를 각각 제곱하여 총합하는 것을 개수로 나눈 것으로 극단적으로 큰 수치가 나는 경향이 있다.
+
+- 표준 편차 (standard deviation)
+   분산값의 제곱근으로 편차의 제곱수로 만든 분산 개념의 비대함을 상쇄하는 수치를 얻을 수 있다.
+
+- 표준화 (standardization)
+   대상 자료가 얼마나 평균에서 멀어진 값인지 표준편차에 비례한 차이, ((자료값 - 평균) / 표준편차)

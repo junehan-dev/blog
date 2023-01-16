@@ -1,0 +1,46 @@
+5.2 probabilities
+#################
+
+:date: 2022-11-02 09:45
+:modified: 2022-11-24 10:15
+:category: math
+:slug: intro-to-probabilities
+:authors: junehan
+:summary: 경우의 수 그리고 확률
+:tags: probabilities
+
+Terminologies
+-------------
+
+*trial*
+   instance of such a proceeding, 실행 가능한 단위
+
+*event*
+   | subset of probability space, set of outcomes that has some probability of occurring.
+   | 발생할 수 있는 출력의 조합
+
+*sample space*
+   | 확률 이론에서, 이는 특정 실험에서 발생한 수 있는 모든 결과를 의미한다.
+   | set notation을 사용하여 주로 설명되고, 이것의 subset을 event라고 부른다.
+
+*circumference*
+   | Circumference(원의 둘레) = π(원주율) × diameter(직경) = 2π × radius(반지름)
+
+
+Probability?
+------------
+
+- probability in wikipedia::
+
+   Probability, 확률 혹은 가능성은  수학의 event가 발생할 경향의 수에 대한 설명의 분야이다.
+   특정 이벤트의 가능성은 0과 1 사이의 수가 되며, 0은 불가능을 의미하고 1은 반드시를 의미한다.
+   대표적으로 편향되지 않은 동전을 던지는 것을 예시로 드는데, 이 경우 heads, tails 두 가지의 출력은 동일한 가능성을 가지고 있다.
+   이 개념은 이벤트들의 예상된 발생 빈도를 그리는 등의 목적으로, 통계, 수학, 과학, 경제, 도박, AI, 머신러닝, 컴퓨터 과학, 게임이론 등에 넓게 사용된다.
+   *Probability Theory*\는 기계학과 복잡한 시스템의 일반적 상태에 대한 기초를 설명하는 등에 사용된다.
+
+| 모든 경우의 수 all events는 어떤 명제 혹은 주제에 대해서 일어날 수 있는 모든 사건을 단순 수치로 셈을 하는 것을 의미한다.
+| 이 중에서 어떤 확률을 구한다고 하면, 전체의 경우의 수에 대한 event의 비율이 된다.
+
+.. image:: https://lh3.googleusercontent.com/pw/AL9nZEXE6rFyTfsIi5bYKz1FZz5BH1C8dzTXe_pgPC5sWCqT3KyeE-ZlkSHZOM2o-8cVv3sxCPqa7TorxVqqpPEc-G5ldlXhJYV5SXZFLTKaVY7fOvjSYBvR2fppqOGH-Kjq-7cL5OrpARfd2hZWUE7KUD3Y=w1021-h1360-no?authuser=0
+   :alt: Note to Probability
+
