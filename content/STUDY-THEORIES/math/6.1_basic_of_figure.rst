@@ -1,0 +1,49 @@
+6.1 Basic of figure
+###################
+
+:date: 2023-01-30 19:45
+:modified: 2023-01-30 21:22
+:category: math
+:slug: intro-to-figure
+:authors: junehan
+:summary: 선과 각
+:tags: figure
+
+Terminologies
+-------------
+
+- *line*
+   | 기하학에서, 무한한 길이를 가지고, 넓이, 깊이, 곡률을 가지지 않는 object.
+   | 그러므로 one-dimensional objects이다.
+
+- *Transversal*
+   | 기하학에서, 동일한 평면에서 두 개의 별개의 점을 지나는 것으로 두 선을 가로지는 건을 지칭한다.
+   | 이때 두 개의 선은 평행할 수 도 있고, 그렇지 않을 수도 있으나 관계상 횡단선이 두 선을 같은 역할로 규정.
+
+- *Perpendicular lines*
+   (직각을 이루는,) 90도 직각의 교차점(vertex)를 이루는 두 선을 지칭한다.
+
+- *Alternate angles*
+   | 엇각. 두 선을 지나는 Transversal에서, 총 8개의 각이 생성되는데,
+   | - 개별적인 vertex point를 가지고,
+   | - transversal의 반대쪽 각에 위치한다.
+
+- *Corresponding angles*
+   | 동위각. 두 선을 지나는 Transversal에서, 총 8개의 각이 생성되는데,
+   | - 개별적인 vertex point를 가지고,
+   | - transversal의 동일한 방향의 각에 위치한다.
+
+선과 각의 개념
+--------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AMWts8CmAygMjVDBLXDbtSu9hljS8rFzg_REeFbF2LU89Vq0PD7ymkaoi6wtTyB7N4Q3ltoJecjyxYzDQWCVJ3HZ-LEWZ3mBw5vEL45G1pVRJb-I5MnCbCbNNabqEUx0Lxvv5x07DT6lUqAjyQdPWZ8TO4Sm=w1035-h1379-no?authuser=0
+   :alt: note to line
+
+.. image:: https://lh3.googleusercontent.com/pw/AMWts8BFl0sGnG6l2RTWY7J82w_QwWjyTuoAYMlcWTAYNz-ugYHGwOTi0YlePpCuRcVp2PTJ-SpBqEQ1ExBszARGwduQd9y1Ysncl-e8R87Qck3ccaPQPsVjWEkuQKvs1zoJvHdfUnsYJjvG3MWGI9-ZZn8b=w1035-h1379-no?authuser=0
+   :alt: note to angle
+
+- 선과 선이 교차하는 지점(vertex)에서 각이 생성된다.
+- 평행선을 180도 라고 정의하는 점에서 부터 두 선, 혹은 그 이상의 선 사이 관계에서 생성된 속성이 각(angle).
+- opposite, vertical pair of angle(맞꼭지각), Alternate angle(엇각), Corresponding angle(동위각)등 추가적인 정의는 많으나,
+  기준선과 교차선 사이의 관계가 이러하다면, 다른 선과 교차선 사이의 관계도 이와 연계되는 속성으로 설명할 수 있다는 방식.
+
