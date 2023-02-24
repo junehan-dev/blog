@@ -29,7 +29,9 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # CUSTOM
-THEME = 'themes/graymill'
+#THEME = 'graymill'
+THEME = 'notmyidea'
+#THEME = 'simple'
 
 PAGE_URL = 'pages/{category}/'
 PAGE_SAVE_AS = 'pages/{category}/index.html'
