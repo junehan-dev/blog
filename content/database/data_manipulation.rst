@@ -2,7 +2,7 @@ Query Primer 7. Data Generation, Manipulation, and Conversion
 #############################################################
 
 :date: 2023-02-10 18:18
-:modified: 2023-02-24 23:57
+:modified: 2023-02-27 19:41
 :category: database
 :slug: Data-generation-manipulation-conversion
 :authors: junehan
@@ -317,7 +317,7 @@ String representation of temporal data
 Generation Dates
 ^^^^^^^^^^^^^^^^
 
-- :``CAST('temporal string format' AS type)``: 문자열 양식에서 type에 대한 자료로 변형
+- :``CAST(<SRC> AS type)``: SRC 양식에서 type에 대한 자료로 변형
 
    .. code-block:: sql
 
@@ -373,7 +373,7 @@ Manipulate Dates
       SELECT DAYNAME('2019-09-18');
       # Wednesday       
 
-- :``EXTRACT(UNIT FROM DATE)``: DATE로 부터 UNIT의 
+- :``EXTRACT(UNIT FROM DATE)``: DATE로 부터 UNIT의 수치를 반환한다.
 
    :UNIT: YEAR, MONTH, DAY, HOUR, MINUTE, SECOND, MICROSECOND
 
@@ -384,4 +384,35 @@ Manipulate Dates
 
       SELECT EXTRACT(DAY '2019-09-18');
       # 18
+
+- :``DATEDIFF(DEST, SRC)``: DATE DEST로 부터 SRC의 DAY DIFF를 반환한다.
+
+   :UNIT: YEAR, MONTH, DAY, HOUR, MINUTE, SECOND, MICROSECOND
+
+   .. code-block:: sql
+
+      SELECT DATEDIFF('2019-09-03', '2019-06-21 00:00:01');
+      # 74
+
+
+Conversion Functions
+^^^^^^^^^^^^^^^^^^^^
+
+| CAST()를 사용해서 string(date format)을 datetime 타입의 값으로 변환했었는데,
+| 모든 데이터베이스 서버는 특정 데이터를 다른 타입으로 변경할 수 있는 내장함수들을 가지고 있지만,
+| CAST()를 사용할 것을 적극 추천한다.
+
+:``CAST(<SRC> AS <TYPE>)``: SRC를 내장 Type에 맞게 자료형을 변경한다.
+
+   .. code-block:: sql
+
+      SELECT
+         CAST('2019-09-17' AS DATE) AS date_field,
+         CAST('1456328' AS SIGNED INTEGER) AS to_num,
+         CAST('099ABC111' AS UNSIGNED INTEGER) AS to_natural;
+      # 2019-09-17 | 1456328 | 99
+
+   | 이 경우 마지막 쿼리에서 Warning이 발생하는데,
+   | 예상할 수 있는 정도의 경고로 크리티컬한 것이 아니므로
+   | 성공적으로 쿼리는 종료되지만 정책의 변경에 의해 금지하거나 할 수 있다.
 
