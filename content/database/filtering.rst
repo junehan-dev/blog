@@ -1,20 +1,23 @@
-Query Primer 4. Fitering
-########################
+Query Primer 4. Filtering
+#########################
 
 :date: 2022-08-23 13:29
-:modified: 2022-08-25 14:57
+:modified: 2023-03-03 22:21
 :category: database
 :slug: sql-filtering
 :authors: junehan
 :summary: intro to filtering in sql
-:tags: sql-where, sql
+:tags: sql
 
 SUBJECT: Filtering의 방법과 차이를 이해하자
 -------------------------------------------
 
    - References
 
-      - text book, Learning sql 3rd edition
+      - web
+      - text book
+
+         - Learning sql 3rd edition/Alan Beaulieu/9781492057611
 
 Intro
 -----
@@ -133,51 +136,49 @@ Using Subqueries
    | AFRICAN EGG               | G      |
    ...
 
-WildCards
-^^^^^^^^^
+Special Keywords
+^^^^^^^^^^^^^^^^
 
-부분적인 문자열을 검색할때, 아래 2가지 wildcard를 사용할 수 있다.
+1. WildCards
+   부분적인 문자열을 검색할때, 아래 2가지 wildcard를 사용할 수 있다.
 
-:_:
-   Exactly one any character
+   :_:
+      Exactly one any character
 
-:%:
-   Any number of any character
+   :%:
+      Any number of any character
 
-NULL
-^^^^
+2. NULL
+      값이 존재하지 않음을 의미하는 값.
 
-NULL
-   값이 존재하지 않음을 의미하는 값.
+   위처럼 단순한 명제이지만, 아래처럼 활용은 다양하다.
 
-위처럼 단순한 명제이지만, 아래처럼 활용은 다양하다.
+      - Not applicable (적용할 수 없는)
+      - Value not yet known (값을 알 수 없는)
+      - Value undefined (값이 정해지지 않은)
+      
+   .. note::
 
-   - Not applicable (적용할 수 없는)
-   - Value not yet known (값을 알 수 없는)
-   - Value undefined (값이 정해지지 않은)
-   
-.. note::
+      - 표현이 null이 될 수는 있지만, = null은 불가능 하다. (IS를 사용해야 한다.)
+      - 두 개의 null은 절대 동일한 값이 아니다.
 
-   - 표현이 null이 될 수는 있지만, = null은 불가능 하다. (IS를 사용해야 한다.)
-   - 두 개의 null은 절대 동일한 값이 아니다.
+   1. Normal Usage
 
-1. Normal Usage
+      .. code-block:: sql
 
-   .. code-block:: sql
+            SELECT
+               rental_id, customer_id
+            FROM rental
+            WHERE return_date IS NULL;
 
-         SELECT
-            rental_id, customer_id
-         FROM rental
-         WHERE return_date IS NULL;
+   #. NULL Is NOT A Value
 
-#. NULL Is NOT A Value
+      .. code-block:: sql
 
-   .. code-block:: sql
+           SELECT
+              rental_id, customer_id
+           FROM rental
+           WHERE return_date = NULL;
 
-        SELECT
-           rental_id, customer_id
-        FROM rental
-        WHERE return_date = NULL;
-
-   Null이라는 값을 넣은 것이 아니라, 값을 넣지 않은 것이다.
+      Null이라는 값을 넣은 것이 아니라, 값을 넣지 않은 것이다.
 
