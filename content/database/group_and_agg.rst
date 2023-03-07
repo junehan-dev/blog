@@ -9,8 +9,8 @@ Query Primer 8. Grouping and Aggregates
 :summary: Aggregations in database
 :tags: sql, set
 
-SUBJECT: 데이터 타입과 데이터 조작 방법에 대해 알아보자
--------------------------------------------------------
+SUBJECT: 데이터를 가공하는 그룹화와 집계 함수들에 대해
+------------------------------------------------------
 
    - References
 
