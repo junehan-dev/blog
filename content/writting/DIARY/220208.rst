@@ -3,10 +3,11 @@
 
 :date: 2022-02-08 20:37
 :modified: 2022-02-08 20:37
-:category: diary
+:category: writting
 :slug: impression-of-redoing-programming
 :authors: junehan
 :summary: Feelings about redo the programming
+:tags: diary
 
 다시 하는 기분?
 ---------------

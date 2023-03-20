@@ -3,10 +3,11 @@
 
 :date: 2022-01-31 02:09
 :modified: 2022-01-31 02:09
-:category: diary
+:category: writting
 :slug: regrets-on-2021-year-and-the-new-year
 :authors: junehan
 :summary: Regrets on 2021, and the new year came.
+:tags: diary
 
 오늘 새로운 계획을 다시 계획했다.
 

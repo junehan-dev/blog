@@ -3,10 +3,11 @@
 
 :date: 2022-05-04 01:04
 :modified: 2022-05-04 01:04
-:category: diary
+:category: writting
 :slug: the-day-teamleader-quitted-the-project
 :authors: junehan
 :summary: impressions of the day when i lost my teamleader
+:tags: diary
 
 Intro
 -----

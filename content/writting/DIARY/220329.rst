@@ -3,10 +3,11 @@
 
 :date: 2022-03-29 21:39
 :modified: 2022-03-29 21:39
-:category: diary
+:category: writting
 :slug: do-useless
 :authors: junehan
 :summary: those works seemingly uselesses i did.
+:tags: diary
 
 *오늘 나의 고민은 이렇다.*
  

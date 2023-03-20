@@ -3,10 +3,11 @@
 
 :date: 2022-05-15 17:26 
 :modified: 2022-05-15 17:26
-:category: diary
+:category: writting
 :slug: the-thing-gandalf-needed
 :authors: junehan
 :summary: valuable of plan changes
+:tags: diary
 
 .. image:: https://s26162.pcdn.co/wp-content/uploads/2019/11/gandalf.jpg
    :alt: gandalf the white wizard, from lord of the ring

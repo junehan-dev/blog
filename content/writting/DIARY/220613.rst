@@ -3,10 +3,11 @@
 
 :date: 2022-06-13 16:24
 :modified: 2022-06-13 16:30
-:category: diary
+:category: writting
 :slug: graduation-review-and-regrets
 :authors: junehan
 :summary: my graduation for hanghae99, regrets and review
+:tags: diary
 
 Review
 ------

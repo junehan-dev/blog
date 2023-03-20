@@ -3,10 +3,11 @@
 
 :date: 2022-05-24 03:19
 :modified: 2022-05-24 03:19
-:category: diary
+:category: writting
 :slug: ready-to-broke-the-wall-or-prepared-ready
 :authors: junehan
 :summary: Ready to broke the wall or prepared ready to.
+:tags: diary
 
 또 다시 많은 상태가 지나갔다.
 -----------------------------

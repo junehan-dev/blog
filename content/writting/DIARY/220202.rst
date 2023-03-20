@@ -3,10 +3,11 @@
 
 :date: 2022-02-02 21:33
 :modified: 2022-02-02 21:33
-:category: diary
+:category: writting
 :slug: bootcamp-interviewed-at-night-9pm
 :authors: junehan
 :summary: I just took and interview at hangha99 bootcamp
+:tags: diary
 
 항해 99면접을 봤다.
 

@@ -3,10 +3,11 @@
 
 :date: 2022-06-22 09:18
 :modified: 2022-06-22 09:18
-:category: diary
+:category: writting
 :slug: break-out-with-blue
 :authors: junehan
 :summary: 우울함이 사라진 날
+:tags: diary
 
 좋아하는 것을 다시 시작해보자
 -----------------------------
