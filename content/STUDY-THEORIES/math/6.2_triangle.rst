@@ -1,0 +1,69 @@
+6.2 triangle
+############
+
+:date: 2023-06-13 18:38
+:modified: 2023-06-19 17:08
+:category: math
+:slug: triangle_and_pythagorean_theorem
+:authors: junehan
+:summary: 삼각형과 피타고라스 정리
+:tags: figure
+
+Terminologies
+-------------
+
+- *Isosceles triangle(이등변 삼각형)*
+   | triangle with 2 side of equal length.
+   | Greek, 'isos(equal) skelos(leg)'.
+   | 두 개의 같은 길이의 side는 legs, 나머지 하나는 base 라고 부른다.
+   | legs로 인해 생성된 두 각은 vertex angle, 남은 각은 base angle이다.
+   | 현대적인 정의로는 최소한 two side가 같다면 *isoceles*\로 규정하며,
+   | 그렇지 않은 것은 *scalene*\라고 부른다.
+
+- *hypotenuse*
+   | longest side of a right-angled triangle.
+   | 직각 삼각형의 직각의 맞은 편에 있는 변(선)
+
+- *θ, theta*
+   - plane angle in geometry(평면 위의 각)
+   - unknown variable in trigonometry(각과 길이의 비율의 관계에서 미지수)
+
+- *Congruence(합동)*
+   | translation, rotation and reflection의 변형규칙에 있어서 두 도형이 동일한 형태와 크기를 가졌을 때 성립하는 것.
+   | 형식적인 정의로는,
+   | 두 그룹의 점의 집합이 bijective로 대칭되며 엄격한 변형규칙에 의해 서로 동일한 관계를 유지하는 것.
+
+- *Similarity(닮음)*
+   닮음. 합동의 변형규칙에 scaling(크기 조정)이 포함되는 것.
+
+삼각형과 합동 닮음
+------------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AJFCJaWv4aj4uHsn3ox0UKYlCi2w-nnJOXzgKz6MM6SCP7Je0kEEfwAP5tYwtpdIRoEqfI4IL0e31jYh0alOGOaejeYZrTFgeG-3jik-kUrMgAKYiOMYxFfqlOue3-aaw7NV6on1rxoR2S4IXnQ4Y-HNYVpv=w1035-h1379-s-no?authuser=0
+   :alt: note to triangle
+
+| 삼각형에 대한 설명과 함께
+
+   - Isosceles triangle
+   - right triangle
+
+| 이 함께 등장하는데, 이는 일반적인 삼각형에서 범주를 나누기 위함이다.
+| 두 변의 길이가 같다는 조건, base의 angle이 90degree라는 조건으로 인해서,
+| triangle에 대한 파악을 할 수 있는 증명된 규칙이 존재하기 때문이다.
+
+
+.. image:: https://lh3.googleusercontent.com/pw/AJFCJaUeQuF2N5Uk1oOLselemEi78eKLCoM46simhcSv4_Ic6VCqWJUuFGcFul4KP2b6A7CUIKfx7GsZWK-SBF1WxOWT9CjRdAOBqmx3u-SK_3XhBuRA24mIOLKuAiu3Srp2-53KwizuEA3tRXHkSzAB7cvm=w1035-h1379-s-no?authuser=0
+   :alt: note to congruence and similarity
+
+피타고라스 정리
+---------------
+
+.. image:: https://lh3.googleusercontent.com/pw/AJFCJaUf1RJe9Jquc0WbqWESzkKFyWODsgaZxo06vddJzlFr7R_wvTcAOyla2cRhsOzS6KB9w2BwLDhVNMj5k43pIbrwYdHtVvpUSJl-wjVK4KGAvIXj6mLR07XM2DJQFAALzBWwbYjE0gjmLznxExfzItjB=w1035-h1379-s-no?authuser=0
+   :alt: note to pythagorean theorem
+
+
+- 선과 선이 교차하는 지점(vertex)에서 각이 생성된다.
+- 평행선을 180도 라고 정의하는 점에서 부터 두 선, 혹은 그 이상의 선 사이 관계에서 생성된 속성이 각(angle).
+- opposite, vertical pair of angle(맞꼭지각), Alternate angle(엇각), Corresponding angle(동위각)등 추가적인 정의는 많으나,
+  기준선과 교차선 사이의 관계가 이러하다면, 다른 선과 교차선 사이의 관계도 이와 연계되는 속성으로 설명할 수 있다는 방식.
+
