@@ -36,6 +36,13 @@ Terminologies
 - *Similarity(닮음)*
    닮음. 합동의 변형규칙에 scaling(크기 조정)이 포함되는 것.
 
+- *slant*
+   특정한 각이나 방향으로 경사(slope)지다.
+
+- *prism*
+   | 기초가 되는 n-side 다각형을 포함하여
+   | 그것에 평행하는 합동의 도형과, 평행관계의 side를 연결하여 얻어지는 3-dimensional shape.
+
 삼각형과 합동 닮음
 ------------------
 
@@ -61,9 +68,5 @@ Terminologies
 .. image:: https://lh3.googleusercontent.com/pw/AJFCJaUf1RJe9Jquc0WbqWESzkKFyWODsgaZxo06vddJzlFr7R_wvTcAOyla2cRhsOzS6KB9w2BwLDhVNMj5k43pIbrwYdHtVvpUSJl-wjVK4KGAvIXj6mLR07XM2DJQFAALzBWwbYjE0gjmLznxExfzItjB=w1035-h1379-s-no?authuser=0
    :alt: note to pythagorean theorem
 
-
-- 선과 선이 교차하는 지점(vertex)에서 각이 생성된다.
-- 평행선을 180도 라고 정의하는 점에서 부터 두 선, 혹은 그 이상의 선 사이 관계에서 생성된 속성이 각(angle).
-- opposite, vertical pair of angle(맞꼭지각), Alternate angle(엇각), Corresponding angle(동위각)등 추가적인 정의는 많으나,
-  기준선과 교차선 사이의 관계가 이러하다면, 다른 선과 교차선 사이의 관계도 이와 연계되는 속성으로 설명할 수 있다는 방식.
-
+| 유클리드 기하학과 직각삼각형의 사이에서 기초적인 관계를 가지는 것으로,
+| hypotenuse의 사각형은 다른 두 변의 사각형의 넓이와 같다는 것이다.
