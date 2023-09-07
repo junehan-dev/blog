@@ -2,7 +2,7 @@
 ############
 
 :date: 2023-06-13 18:38
-:modified: 2023-06-19 17:08
+:modified: 2023-07-24 16:08
 :category: math
 :slug: triangle_and_pythagorean_theorem
 :authors: junehan
@@ -43,6 +43,15 @@ Terminologies
    | 기초가 되는 n-side 다각형을 포함하여
    | 그것에 평행하는 합동의 도형과, 평행관계의 side를 연결하여 얻어지는 3-dimensional shape.
 
+- *diagonal*
+   | 2차원 다각형이나 3차원 도형에서 vertex(점)을 연결하는 line segment.
+   | 같은 면에 속하는 vertices라면 *face diagonal*\이며,
+   | 같은 면에 속하지 않는 vertices라면 *space diagonal*\로 명칭한다.
+
+- *perimeter*
+   2차원 도형이나 1차원 선의 외곽선, 원의 경우에 circumference(둘레)라고 부른다.
+
+
 삼각형과 합동 닮음
 ------------------
 
@@ -70,3 +79,4 @@ Terminologies
 
 | 유클리드 기하학과 직각삼각형의 사이에서 기초적인 관계를 가지는 것으로,
 | hypotenuse의 사각형은 다른 두 변의 사각형의 넓이와 같다는 것이다.
+
