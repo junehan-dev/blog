@@ -3,11 +3,10 @@ Book Summary, "Understanding the digital World"
 
 :date: 2023-04-11 03:52
 :modified: 2023-04-12 00:00
-:category: writting
+:category: book-summary
 :slug: summary-to-the-understanding-the-digital-world
 :authors: junehan
 :summary: summary for IT summary by brian kernighan
-:tags: summary, book, ongoing
 
 Preface
 -------
@@ -56,4 +55,8 @@ Preface
       - 어떻게 이들이 동작하는가?
       - 이점에 비해 특히 개인정보와 보안에 있어서 어떤 위험이 있는가?
       - 어떻게 그들이 안전한 것이 될 수 있는가?
+
+HardWare
+--------
+
 

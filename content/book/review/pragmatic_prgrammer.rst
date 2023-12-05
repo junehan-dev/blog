@@ -3,11 +3,10 @@
 
 :date: 2021-04-01 02:09
 :modified: 2021-04-21 02:09
-:category: writting
-:slug: review-the-pragmatic-programmer
+:category: book-review
+:slug: review-of-pragmatic-programmer
 :authors: junehan
 :summary: summary to book 'the pragmatic programmer'
-:tags: book, review
 
 Preface
 -------

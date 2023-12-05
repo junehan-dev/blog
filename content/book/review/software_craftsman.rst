@@ -3,11 +3,10 @@
 
 :date: 2021-03-01 02:09
 :modified: 2022-03-20 02:09
-:category: writting
+:category: book-review
 :slug: review-to-the-software-craftsman
 :authors: junehan
 :summary: my review to the software craftsman
-:tags: book, review
 
 Recommodation
 -------------
