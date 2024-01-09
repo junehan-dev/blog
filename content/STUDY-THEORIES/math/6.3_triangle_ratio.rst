@@ -1,0 +1,75 @@
+6.7 Trigonometric Ratios
+########################
+
+:date: 2024-01-08 14:12
+:modified: 2024-01-09 18:51
+:category: math
+:slug: intro-to-trigonometric-ratios
+:authors: junehan
+:summary: 삼각비의 이해와 활용
+:tags: figure, triangle
+
+Trigonometric functions
+=======================
+
+Terminologies
+-------------
+
+- *sine*
+   ratio of corresponding side opposite to theta angle over hypotenuse
+
+- *cosine*
+   ratio of adjacent side of theta angle over hypotenuse
+
+- *tangent*
+   ratio of corresponding side of theta angle over adjacent side(sine over cosine)
+
+- *trigonometric*
+   compound of 'triangle' and 'measure', concerns relationships between angles and ratios of lengths.
+
+what is trigonometric functions
+-------------------------------
+
+| 삼각형 내에서 하나의 각이 직각일 때,
+| 나머지 두 각은 하나의 대상-각(Theta angle)의 크기에 따라 정해지게 되며,
+| 각의 크기에 대해서 또한 대응하는 면의 길이도 정해진다.
+| 이러한 삼각형의 성질에 따라 Theta angle의 맞은편에 위치한 opposite side를 대상으로 하여,
+| side의 길이를 매개로 나머지 두 변과의 비율(관계)을 표현하는 formual를 trigonometric functions라고 한다.
+
+.. image:: https://lh3.googleusercontent.com/pw/ABLVV85DTf470cH5SHEehC-PG4zNMVfHc4ozr5nF60jMAryhizIRAhUd8Lv84doc465RAhuoimsM5_DyF74DqljRahVC3yjZCZVrVAO11e-uGvq7RMAFOXZnh-JDIObfhCV-svH11LmFvlgdje3vpN6_icvj=w1032-h1375-s-no?authuser=0
+   :alt: note to what is trigonometric 
+
+Appliance, how does that work
+-----------------------------
+
+| 직각삼각형에 한해서, given info가 아래 두 가지만 충족하더라도 나머지 변의 길이에 대해 계산이 가능하다.
+
+   - length of single side 
+   - angle of theta
+
+| 실제 길이의 규모와는 관계 없이 theta를 기준으로 한 삼각비의 비율을 수치화 할 수 있고,
+| 피타고라스 정리와 혼합하여 정확한 side의 길이에 대해 계산할 수 있다.
+
+.. image:: https://lh3.googleusercontent.com/pw/ABLVV87CZho0lvoXrPIIY-n-29-yavq6KP3MJM6wI9aOXJ9WVQjt-9rELGKzIhm5OcZ995CAKP_quQI8AP_wrq5A1umEKVted3LPSsEP_O09XmUmAt-aq9KbRgVt1jWJI6uAFU6l21ddSseIsXnyFRVf7cod=w1032-h1375-s-no?authuser=0
+   :alt: note to trigonometric functions with pythagorean theorem
+
+With Correspondance property of trigonometric functions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+| theta angle의 크기에 따른 세 함수의 값(비율)은 정해져 있다.
+| hypotenuse에 대한 나머지 두 side에 대한 비율, 그리고 두 side간의 비율이기 때문에,
+| 모두 0과 1 사이의 값을 가질 수 있다.
+
+| especially when the degree of theta angle is 30 or 60.
+| with copying that triangle and compound it, we can turn triangle's shape to regular triangle.
+
+   - 30: two of theta angle side (30 + 30) = 60 degree angle (all sides have same length)
+   - 60: two of non-theta angle side (30 + 30) = same as above
+
+| and in case of theta angle's degree is 45, then no need to copy or move it around.
+
+   - 45: just isocelces triangle. (two side have same length except the hypotenuse)
+
+.. image:: https://lh3.googleusercontent.com/pw/ABLVV86nB6O1q3oLbXmeG1B54L_tbRo0HvPdZ5-qbkMWB7QsC7CntoYM6X9Vwf2C3RpewwvCojh6MeIhHTZRu-3NgGtA6XmxqRGCOFeQI6WCzGr4zgARpofgE_vzZfD8T7oc3F4HrhSkQnCPuu1mHvbocLVO=w1032-h1375-s-no?authuser=0
+   :alt: note to triangle
+
